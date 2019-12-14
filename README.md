@@ -4,8 +4,8 @@ journal for jessie
 # 12/14/14
 
 - Created a AWS account, the domain tarrie.io is available via AWS Route 53 thank the lord! However its $40 bucks should I pay for it? 
-- Converted RAML to Swagger very easy to do. The API I created before is close to complete but missing details on authentication so I'll spend my time filling those in. So here comes AWS Cognito
-- AWS Cognito has JWT tokens which is what I was looking for. But I want to add some claims to the payload of the token so I'm trying to figure that out
+- Converted RAML to Swagger very easy to do. The API I created before is close to complete but missing details on authentication so I'll spend my time filling those in- here comes AWS Cognito!
+- AWS Cognito has JWT tokens which is what I was looking for,however, But I want to add some claims to the payload of the token so I'm trying to figure that out. 
     - Found how to add claims to token -> https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-lambda-pre-token-generation.html , needs lambda or access to AWS CLI. Lambda will get expensive so just use AWS CLI have to verify that I can access CLI from a EC2 Instance (aka BeanStalk).
         - Turns out I can: https://stackoverflow.com/questions/45844779/is-it-possible-to-execute-aws-cli-commands-on-an-ec2-instance-without-placing-aw
         - So lets just develop on local machine using AWS CLI then set up the IAM roles later. 
