@@ -10,3 +10,4 @@ journal for jessie
         - Turns out I can: https://stackoverflow.com/questions/45844779/is-it-possible-to-execute-aws-cli-commands-on-an-ec2-instance-without-placing-aw
         - So lets just develop on local machine using AWS CLI then set up the IAM roles later. 
 - To start lets create a api endpoint for groups -- becoming admin, owner, club member, subscribe -- most if not all need jwt access. 
+    - Took a while to get the tomcat server env up and running but I got a hello world example up. Now lets implement the api schema for groups
