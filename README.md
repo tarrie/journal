@@ -11,3 +11,4 @@ journal for jessie
         - So lets just develop on local machine using AWS CLI then set up the IAM roles later. 
 - To start lets create a api endpoint for groups -- becoming admin, owner, club member, subscribe -- most if not all need jwt access. 
     - Took a while to get the tomcat server env up and running but I got a hello world example up. Now lets implement the api schema for groups
+    - Actually now lets set up swagger integration w/ jersey and then we can be done for the day
