@@ -12,3 +12,5 @@ journal for jessie
 - To start lets create a api endpoint for groups -- becoming admin, owner, club member, subscribe -- most if not all need jwt access. 
     - Took a while to get the tomcat server env up and running but I got a hello world example up. Now lets implement the api schema for groups
     - Actually now lets set up swagger integration w/ jersey and then we can be done for the day
+    - Finished. mvn is surpsingly annoying. found out how to define datamodels for swagger to! use this link tommorow now the api generation will be semantic https://www.vojtechruzicka.com/documenting-spring-boot-rest-api-swagger-springfox/
+        - TOMMORROW: GET api for group membership going, use AMAZON CLI TO add group membership to the payload of jwt token. honestly not sure this matter that much but i guess if people really want their groups to be secure. whatever. 
