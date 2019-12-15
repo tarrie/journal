@@ -15,3 +15,7 @@ journal for jessie
     - Finished. so got the java server env set up so things should be fast. btw mvn is surpsingly annoying. found out how to define datamodels for swagger to! use this link tommorow now the api generation will be semantic https://www.vojtechruzicka.com/documenting-spring-boot-rest-api-swagger-springfox/
         - TOMMORROW: GET api for group membership going, use AMAZON CLI TO add group membership to the payload of jwt token. honestly not sure this matter that much but i guess if people really want their groups to be secure. whatever. 
        
+# 12/15/14
+- Found good documentation for making API model https://jakubstas.com/spring-jersey-swagger-create-documentation/#.XfagyNZKjBI
+- Only problem is that the response should be a json. So i want to convert a java class to json. Found it: https://blog.codota.com/how-to-convert-a-java-object-into-a-json-string/
+- So first get the model down, then keep trying to make the groups endpoint then check out cognito. 
