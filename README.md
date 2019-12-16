@@ -25,3 +25,4 @@ journal for jessie
 - https://portswigger.net/web-security/csrf/tokens After i figure out JWT lets figure out csrf.. or maybe not. .. lets just keep this in mind
 - New goal just get the api working without worrying about jwt(obvious yes). Why? Well its not that straightforward to use the swagger annotations and to consume json payloads so i need to figure this out. As a benefit at least the mvp api will be produced w/ corresponding documentation. 
     - Main reference url:  https://www.mkyong.com/tutorials/jax-rs-tutorials/
+    - https://github.com/swagger-api/swagger-core/wiki/Swagger-2.X---Getting-started
