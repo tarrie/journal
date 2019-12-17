@@ -32,3 +32,4 @@ journal for jessie
 - Setting up DynamoDb with Java https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.Java.html
     - The free tier comes with alot of data!!
 - https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/
+- https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-general-nosql-design.html
