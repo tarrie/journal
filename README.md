@@ -33,5 +33,6 @@ journal for jessie
     - The free tier comes with alot of data!!
 - https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/
 - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-general-nosql-design.html
+- https://aws.amazon.com/blogs/database/using-sort-keys-to-organize-data-in-amazon-dynamodb/
 - The first one seems nice, good amt of work to do to set DynamoDb up and understand it. I created a Admin Secret Access Keys, and had to set up new permisions. Close but no cigar lets do it tommorrow. Also need to figure out how to define the schema aka how to structure dynamodb. Store the schema in the ressource folder? idk. Right now i think evrything looks pretty organized
     - https://github.com/tarrie/io.tarrie.api/pull/1 -- contains the brANCH that i'll be working with. 
