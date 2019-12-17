@@ -18,6 +18,7 @@ journal for jessie
 # 12/15/14
 - Found good documentation for making API model 
     - https://jakubstas.com/spring-jersey-swagger-create-documentation/#.XfagyNZKjBI
+    - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-general-nosql-design.html
     - https://www.vojtechruzicka.com/documenting-spring-boot-rest-api-swagger-springfox/
     - https://medium.com/shark-bytes/co-hosting-swagger-ui-with-your-jersey-rest-api-using-maven-dependencies-44d88ae85bf8
 - Only problem is that the response should be a json. So i want to convert a java class to json. Found it: https://blog.codota.com/how-to-convert-a-java-object-into-a-json-string/
