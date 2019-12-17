@@ -19,6 +19,7 @@ journal for jessie
 - Found good documentation for making API model 
     - https://jakubstas.com/spring-jersey-swagger-create-documentation/#.XfagyNZKjBI
     - https://www.vojtechruzicka.com/documenting-spring-boot-rest-api-swagger-springfox/
+    - https://medium.com/shark-bytes/co-hosting-swagger-ui-with-your-jersey-rest-api-using-maven-dependencies-44d88ae85bf8
 - Only problem is that the response should be a json. So i want to convert a java class to json. Found it: https://blog.codota.com/how-to-convert-a-java-object-into-a-json-string/
 - So first get the model down, then keep trying to make the groups endpoint then check out cognito. 
 - So im close to finishing the model, however there are certain things i wont model for now like the contact list. I just wanted to get one of the groups endpoints out, but everything is so interrelated i had to create objects for events, eventtime, users, location, membership. So this is taking some time. My goal is still to get a MVP -- the groups endpoint -- so i can figure out congnito but I'm getting sidetracked. 
