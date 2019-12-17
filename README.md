@@ -35,7 +35,10 @@ journal for jessie
 - Setting up DynamoDb with Java https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.Java.html
     - The free tier comes with alot of data!!
 - https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/
-- https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-general-nosql-design.html
 - https://aws.amazon.com/blogs/database/using-sort-keys-to-organize-data-in-amazon-dynamodb/
 - The first one seems nice, good amt of work to do to set DynamoDb up and understand it. I created a Admin Secret Access Keys, and had to set up new permisions. Close but no cigar lets do it tommorrow. Also need to figure out how to define the schema aka how to structure dynamodb. Store the schema in the ressource folder? idk. Right now i think evrything looks pretty organized. gitignore did not ignore my access keys so got secuirty risk emails from AWS oh well, crazy how fast they found my github and the access keys though. sheehs!
     - https://github.com/tarrie/io.tarrie.api/pull/1 -- contains the brANCH that i'll be working with. 
+    
+# 12/17/19
+- https://www.dynamodbguide.com/key-concepts/
+- https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-general-nosql-design.html
