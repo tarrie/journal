@@ -50,3 +50,26 @@ journal for jessie
     - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/AppendixSampleDataCodeJava.html
     - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/JavaDocumentAPITablesExample.html
     - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-relational-modeling.html
+# 12/18/19
+following https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-modeling-nosql.html
+Shit is kinda confusing im going to watch the AWS playlist- https://www.youtube.com/watch?v=W3S1OnDqWl4 and just document what the fuck i've found
+## DynamoDb
+- WCU -1KB in size. If writing item that is 1kb or less than each write will consume 1 write capacity unit
+- RCU -4kb in size. Reading 4kb will consume
+### Sort Key
+- Allows to model 1:N relationship. So a camera has a deviceID, and this device produces N pictures. The sort key allows us to model this. 
+### Local Secondary Index
+### Global Secondary Index
+- Create a group
+    -  Add user to a group
+- Create a event
+    - tag the event with relevant hashtags
+    - Invite user to a event
+- Create a user
+- Share event
+- Change status of group member. 
+- rsvp to a event
+- get a list of available events. 
+- filter event by hash tag
+
+Thoughts: eventId is PK, date is SK. So sort by date
