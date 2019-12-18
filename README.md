@@ -49,3 +49,4 @@ journal for jessie
     - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/CodeSamples.Java.html
     - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/AppendixSampleDataCodeJava.html
     - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/JavaDocumentAPITablesExample.html
+    - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-relational-modeling.html
