@@ -47,3 +47,5 @@ journal for jessie
     -  When setting an attribute for a DynamoDB item, you must specify the type of the attribute. Available types include simple types like strings and numbers as well as composite types like lists, maps, or sets.
     - Main ref: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.Java.html
     - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/CodeSamples.Java.html
+    - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/AppendixSampleDataCodeJava.html
+    - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/JavaDocumentAPITablesExample.html
