@@ -73,3 +73,12 @@ Shit is kinda confusing im going to watch the AWS playlist- https://www.youtube.
 - filter event by hash tag
 
 Thoughts: eventId is PK, date is SK. So sort by date
+
+# 12/19/19
+- https://www.trek10.com/blog/dynamodb-single-table-relational-modeling/
+    - AWS Auro is SQL and distributed vs DynamoDB
+        - DynamoDb- single-table data model is both informal and inflexible. It’s not necessarily going to accommodate new access patterns.
+        - SQL - flexible access pattern w/ joins and what not. 
+- https://www.jeremydaly.com/takeaways-from-dynamodb-deep-dive-advanced-design-patterns-dat403/
+- Rick's DynamoDB Advanced Design Patterns talk - https://www.youtube.com/watch?v=6yqfmXiZTlM
+
