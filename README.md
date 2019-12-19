@@ -81,4 +81,4 @@ Thoughts: eventId is PK, date is SK. So sort by date
         - SQL - flexible access pattern w/ joins and what not. 
 - https://www.jeremydaly.com/takeaways-from-dynamodb-deep-dive-advanced-design-patterns-dat403/
 - Rick's DynamoDB Advanced Design Patterns talk - https://www.youtube.com/watch?v=6yqfmXiZTlM
-
+- https://www.jeremydaly.com/how-to-switch-from-rdbms-to-dynamodb-in-20-easy-steps/
