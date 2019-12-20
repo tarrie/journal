@@ -117,3 +117,4 @@ So in this design User-A is connect to it own server, and User-B is connected to
 Actually lets just skip chats for now. However whatevern we implment needs some sort of real time notification and thats basically the main issue for chats. <br>
 
 Even the interface is taking hours to write, probably going to cancel the meeting downtown with the bro recruiter. 
+- ***CRUD API design*** uses POST for Create and PUT for Update, which has to do with the semantics of these verbs:
