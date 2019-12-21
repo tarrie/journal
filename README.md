@@ -120,9 +120,15 @@ Even the interface is taking hours to write, probably going to cancel the meetin
 - ***CRUD API design*** uses POST for Create and PUT for Update, which has to do with the semantics of these verbs:
 
 # 12/20/19
+
+*** New objects***
 - Notifications
     - event invitations
     - contact request
+    - group invitations
+    - people posting shit in the event thread. 
 - Inbox
     - actual messages from other user
     - messages from events
+- Event Thread
+    - basically a thread that people can post shit to
