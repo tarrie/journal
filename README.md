@@ -135,3 +135,7 @@ Even the interface is taking hours to write, probably going to cancel the meetin
     - basically a thread that people can post shit to
 - HashTags
     - ML Hierichal Clustering allow navigation for hashtags
+    
+Extra Feature
+- How to deal with misspelled hashtags???
+    - ElasticSearch has a fuzzy match paremter - https://www.elastic.co/blog/found-fuzzy-search
