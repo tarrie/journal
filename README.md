@@ -127,6 +127,7 @@ Even the interface is taking hours to write, probably going to cancel the meetin
     - contact request
     - group invitations
     - people posting shit in the event thread. 
+    - other shit I like linkden's format for this
 - Inbox
     - actual messages from other user
     - messages from events
