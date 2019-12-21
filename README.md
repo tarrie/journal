@@ -133,3 +133,5 @@ Even the interface is taking hours to write, probably going to cancel the meetin
     - messages from events
 - Event Thread
     - basically a thread that people can post shit to
+- HashTags
+    - ML Hierichal Clustering allow navigation for hashtags
