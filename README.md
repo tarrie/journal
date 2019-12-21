@@ -118,3 +118,11 @@ Actually lets just skip chats for now. However whatevern we implment needs some 
 
 Even the interface is taking hours to write, probably going to cancel the meeting downtown with the bro recruiter. 
 - ***CRUD API design*** uses POST for Create and PUT for Update, which has to do with the semantics of these verbs:
+
+# 12/20/19
+- Notifications
+    - event invitations
+    - contact request
+- Inbox
+    - actual messages from other user
+    - messages from events
