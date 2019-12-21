@@ -140,3 +140,5 @@ Extra Feature
 - How to deal with misspelled hashtags???
     - ElasticSearch has a fuzzy match paremter - https://www.elastic.co/blog/found-fuzzy-search
 https://www.mkyong.com/webservices/jax-rs/jax-rs-queryparam-example/
+
+Creating own chat sounds crazy lets use open source -https://stackoverflow.com/questions/10680563/what-is-a-good-open-source-chat-solution
