@@ -155,8 +155,12 @@ invites to events based on subgroups. Synonomouys to email blasting.
 - Need to figure out how to add access to event in creation. I think the filter for now can be users who can see it 
     - Subgroups are based on users btw 
     - Is there a way to get existing groups from email provider?
-- If you are a member of a group you are automattocally following it. If you leave a group you are not following it. 
-- Groups: Features that would be nice to have
+- If you are a member of a group you are automattocally following it. If you leave a group you are not following it.
+- Almost finished with defining the abstract interface. Pickup tommorow on the `User` interface. Needs to be cleaned up and add the events path. 
+- Lots of logical errors in the model go over this as well.
+- Users is under path `\users` and Groups is under path `groups`, before had all events under the path `events` but that wasnt clean. Swithced to `\users\{userId}\events` and `\groups\{groupId}\events` endpoint to manipulate specific shit. Needs cleaning up
+***Nice to have features: Implement in next batch***
+- Groups: Features that would be nice to have`
     - invite user to join a group via Name, email address, or handle -- similar to Github
     - Email blast members of the group
     - Message the members of the group
