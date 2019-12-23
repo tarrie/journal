@@ -142,3 +142,41 @@ Extra Feature
 https://www.mkyong.com/webservices/jax-rs/jax-rs-queryparam-example/
 
 Creating own chat sounds crazy lets use open source -https://stackoverflow.com/questions/10680563/what-is-a-good-open-source-chat-solution
+
+# 12/22/19
+- Complexity of the API is overwhelming
+- Before I only had 3 membershipTypes: Owner, Admin, Subscriber. Now we have 4: Owner, Admin, ClubMember, Follower. 
+	- So techincally there will be 3 subgroups in a group: Admins, ClubMembers, Followers
+	- Add ability to make more subgroups that can be made of groups or users - like Like PhdStudents, MasterStudents
+	    - Is there a way to integrate existing sub groups from email provider?
+- Add ability for users to create subgroups as well. Initial subgroup will be empty? Purpose is to make it easy to send out
+invites to events based on subgroups. Synonomouys to email blasting. 
+- In general: Need a way to make subgroups out of users and name them so we can repeatedly give these users access or communicate with them. Like PhdStudents, MasterStudents
+- Need to figure out how to add access to event in creation. I think the filter for now can be users who can see it 
+    - Subgroups are based on users btw 
+    - Is there a way to get existing groups from email provider?
+- If you are a member of a group you are automattocally following it. If you leave a group you are not following it. 
+- Groups: Features that would be nice to have
+    - invite user to join a group via Name, email address, or handle -- similar to Github
+    - Email blast members of the group
+    - Message the members of the group
+    - Chat with group clubMembers
+- Event: Features that would be nice to have
+    - Write on the events page? So events have a feed
+    - shareEvent via email - Needs email service - and to a subgroup
+    - shareEvent via Tarrie - Needs notification object and SNS
+    - List related events to a given Hashtag - Needs ML + clustering
+    - Support for multiple images when creating a event, and to rearrange order of imgs in creation or edits
+    - Attach file to event -- but this can just be a cloud link
+    - Message a user/group about event
+    - Rich text editing. Probably a OpenSource React.Js thing that does this. But look at how emails are formatted both on desktop and on phone to indentify how `rich` the text should be
+- Users:  Features that would be nice to have
+	- [browse] Browes all the events of the groups you are following. Clearly this will be filterable by ClubMember, Admin, Owner
+	- [browse] Block a group from posting to public feed. Iffy on the logic of this
+	- [browse]Message a group 
+
+
+***New Objects: Nice to have almost critical - Same from yesterday***
+- Could implement but lets wait until we get this batch finished with
+
+***Nice to have features*** wait until get this batch finished
