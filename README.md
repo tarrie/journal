@@ -186,5 +186,5 @@ invites to events based on subgroups. Synonomouys to email blasting.
 ***Nice to have features*** wait until get this batch finished
 
 
-#12/28/19
+# 12/28/19
 - tag contacts and tag groups implement later
