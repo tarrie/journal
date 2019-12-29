@@ -187,8 +187,9 @@ invites to events based on subgroups. Synonomouys to email blasting.
 
 
 # 12/28/19
-- tag contacts and tag groups implement later
+- ToDo: Implementing groupoing of contacts and groups via tagging: tag contacts and tag groups -- implement later
 
+Recap
 - finished the interface for 26 endpoints. How many do I have to implement so far? <br>
 - rought interface for API complete
 - tommorrow clean up all endpoints -> create datamodel -> implement simple CRUD -> do it all
