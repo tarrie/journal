@@ -191,6 +191,8 @@ invites to events based on subgroups. Synonomouys to email blasting.
 
 Recap
 - finished the interface for 26 endpoints. How many do I have to implement so far? <br>
-- rought interface for API complete
-- tommorrow clean up all endpoints -> create datamodel -> implement simple CRUD -> do it all
+- rough interface for API complete
+- tommorrow clean up all endpoints interfaces
+- tommorrow: list clearly the ToDo functions
+- next: create datamodel -> implement simple CRUD API endpoint-> do it all
 
