@@ -208,7 +208,7 @@ Notes
 - Implement acid w/ optimisitic conccurency control - versioning
 
 # 12/30/19
-- Bought tarrie.io
+- Bought the domain tarrie.io for $40 fuck it
 - Set up s3 bucket. 
     - https://s3.us-east-2.amazonaws.com/tarrie.io/users/{userId}.jpeg
         - Users can only have one profile picture
@@ -216,6 +216,9 @@ Notes
         - Groups can only have one profile picture
     - https://s3.us-east-2.amazonaws.com/tarrie.io/events/{eventId}/picture{i}.jpeg
         - where `i` is a integer
-	- For now events can only have 2 pictures? 
+        - For now events can only have 2 pictures? 
     - [Public Access for S3 URl's](https://havecamerawilltravel.com/photographer/how-allow-public-access-amazon-bucket/)
     
+Env Variables to create
+    - `S3HostName` - s3.us-east-2.amazonaws.com/tarrie.io
+         - Test: https://s3.us-east-2.amazonaws.com/tarrie.io/users/becky_b1998.jpeg
