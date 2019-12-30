@@ -205,3 +205,6 @@ Recap
 - DynamoDb has a transaction API allows transactions for up to 10 items
     - Uses: Commit changes across items
     - Multiple conditions to find, if any condition fails nothing written - conditional inserts
+- Fastest way to query dynamodb is unidexed docs in json
+- https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html
+- tommorow finish datamodel and launch db
