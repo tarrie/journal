@@ -202,3 +202,6 @@ Recap
 - Currently writing down NoSQl datamodel the relational model was pretty easy. 
 - iam security controls??
 - setting up gsi https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GSI.html - Provisioned Throughput Considerations for Global Secondary Indexes
+- DynamoDb has a transaction API allows transactions for up to 10 items
+    - Uses: Commit changes across items
+    - Multiple conditions to find, if any condition fails nothing written - conditional inserts
