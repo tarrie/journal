@@ -196,3 +196,6 @@ Recap
 - tommorrow: list clearly the ToDo functions
 - next: create datamodel -> implement simple CRUD API endpoint-> do it all
 
+# 12/29/19
+- Finished API. Not important to list ToDo just put them in comments
+- Very good lecture last part on ElasticSearch is key: https://www.youtube.com/watch?v=nhUtZ7suZWI&t=1474s
