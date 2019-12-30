@@ -199,3 +199,4 @@ Recap
 # 12/29/19
 - Finished API. Not important to list ToDo just put them in comments
 - Very good lecture last part on ElasticSearch is key: https://www.youtube.com/watch?v=nhUtZ7suZWI&t=1474s
+- Currently writing down NoSQl datamodel the relational model was pretty easy. 
