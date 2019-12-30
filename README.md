@@ -201,3 +201,4 @@ Recap
 - Very good lecture last part on ElasticSearch is key: https://www.youtube.com/watch?v=nhUtZ7suZWI&t=1474s
 - Currently writing down NoSQl datamodel the relational model was pretty easy. 
 - iam security controls??
+- setting up gsi https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GSI.html - Provisioned Throughput Considerations for Global Secondary Indexes
