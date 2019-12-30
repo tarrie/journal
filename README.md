@@ -201,10 +201,21 @@ Recap
 - Very good lecture last part on ElasticSearch is key: https://www.youtube.com/watch?v=nhUtZ7suZWI&t=1474s
 - Currently writing down NoSQl datamodel the relational model was pretty easy. 
 - iam security controls??
-- setting up gsi https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GSI.html - Provisioned Throughput Considerations for Global Secondary Indexes
-- DynamoDb has a transaction API allows transactions for up to 10 items
-    - Uses: Commit changes across items
-    - Multiple conditions to find, if any condition fails nothing written - conditional inserts
-- Fastest way to query dynamodb is unidexed docs in json
-- https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html
-- tommorow finish datamodel and launch db
+
+Notes
+- ACID transactions because of normalization and tables live in diff places
+- Composite Keys how to create hierarchies using sort key structure. So sort key on composite key will allow to get around expesive queurues. 
+- Implement acid w/ optimisitic conccurency control - versioning
+
+# 12/30/19
+- Bought tarrie.io
+- Set up s3 bucket. 
+    - https://s3.us-east-2.amazonaws.com/tarrie.io/users/{userId}.jpeg
+        - Users can only have one profile picture
+    - https://s3.us-east-2.amazonaws.com/tarrie.io/groups/{groupId}.jpeg
+        - Groups can only have one profile picture
+    - https://s3.us-east-2.amazonaws.com/tarrie.io/events/{eventId}/picture{i}.jpeg
+        - where `i` is a integer
+	- For now events can only have 2 pictures? 
+    - [Public Access for S3 URl's](https://havecamerawilltravel.com/photographer/how-allow-public-access-amazon-bucket/)
+    
