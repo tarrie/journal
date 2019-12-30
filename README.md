@@ -217,7 +217,7 @@ Notes
     - https://s3.us-east-2.amazonaws.com/tarrie.io/events/{eventId}/picture{i}.jpeg
         - where `i` is a integer
         - For now events can only have 2 pictures? 
-    - [Public Access for S3 URl's](https://havecamerawilltravel.com/photographer/how-allow-public-access-amazon-bucket/)
+    - [Public Access for S3 URl's](https://havecamerawilltravel.com/photographer/how-allow-public-access-amazon-bucket/) <br>
 ***Notes<br>***
 - [DataTypes DynamoDb](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.NamingRulesDataTypes.html#HowItWorks.DataTypes)
 Env Variables to create
