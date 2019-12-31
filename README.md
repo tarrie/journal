@@ -247,5 +247,6 @@ Notes
 	        - Specify which groups (and all the group members) can see the event
 		- You can choose to allow guests to invite their friends. People who are invited can view the event description, photos, posts and videos.
         - Public Event: Visible to anyone on or off Facebook. Anyone can see things like the event description, photos, event discussion and videos.
-	- 
+
+***Privacy Class*** Need to create this
 	
