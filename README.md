@@ -271,3 +271,11 @@ New IDEA!!!
 https://books.google.com/books?id=bJbuD2XH1_oC&printsec=frontcover&dq=social+network+analysis+economics&hl=en&newbks=1&newbks_redir=0&sa=X&ved=2ahUKEwia76DMhuHmAhXPPM0KHTSVAFUQ6AEwAHoECAAQAg#v=onepage&q=social%20network%20analysis%20economics&f=false
 https://www.csc2.ncsu.edu/faculty/nfsamato/practical-graph-mining-with-R/slides/pdf/Graph_Cluster_Analysis.pdf
 Clearly mapreduce. 
+
+***Recap for today***
+- Almost finished datamodel only a few more steps but hard part is done
+    - https://docs.google.com/spreadsheets/d/1Z7QqBW91Jye4lVplfZYxUCWf3E1UgJoHvRGOWgsBwdU/edit?usp=sharing
+- Need to come up with a privacy class for events - Asked Ryan for help on this one
+- Figured out how to think about clustering hastags (count or graph theory), and find top level hashtags (graph theory centrality measure, or counts again) 
+
+Tommorrow finish up datamodel. Set up database. Get some functions of API working
