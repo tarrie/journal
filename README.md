@@ -235,4 +235,9 @@ Notes
 - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-modeling-nosql-B.html
 
 # 12/31/19
--Composite Key example: https://aws.amazon.com/blogs/database/using-sort-keys-to-organize-data-in-amazon-dynamodb/
+- Composite Key example: https://aws.amazon.com/blogs/database/using-sort-keys-to-organize-data-in-amazon-dynamodb/
+- Event Privacy
+    -When creating an event, the host can choose between the following privacy settings:
+        - Private Event: Visible only to the people who are invited. You can choose to allow guests to invite their friends. People who are invited can view the event description, photos, posts and videos.
+        - Public Event: Visible to anyone on or off Facebook. Anyone can see things like the event description, photos, event discussion and videos.
+	
