@@ -239,13 +239,13 @@ Notes
 - Event Privacy
     - When creating an event, the host can choose between the following privacy settings:
         - Private Event: 
-	    - Visible only to the people who are invited. 
+            - Visible only to the people who are invited. 
 	        - You can choose to allow guests to invite their friends. People who are invited can view the event description, photos, posts and videos.
             - Visible only to followers and group members
 	        - You can choose to allow guests to invite their friends. People who are invited can view the event description, photos, posts and videos.
-	    - Visible only to members in a network. 
+            - Visible only to members in a network. 
 	        - Specify which groups (and all the group members) can see the event
-		- You can choose to allow guests to invite their friends. People who are invited can view the event description, photos, posts and videos.
+            - You can choose to allow guests to invite their friends. People who are invited can view the event description, photos, posts and videos.
         - Public Event: Visible to anyone on or off Facebook. Anyone can see things like the event description, photos, event discussion and videos.
 
 ***Privacy Class*** Need to create this
