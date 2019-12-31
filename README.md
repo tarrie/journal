@@ -229,3 +229,4 @@ Notes
     - https://pe.usps.com/businessmail101?ViewName=DeliveryAddress
     -  Autocomplete address - https://stackoverflow.com/questions/4169942/how-to-auto-complete-suggest-places-with-address-on-my-website-like-on-google
 - Invarient: Tarrie handles are lower case
+- Invarient: Can't join group unless invited or ask to join group
