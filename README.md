@@ -251,3 +251,21 @@ Notes
 ***Privacy Class*** Need to create this
 	
 https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/howitworks-ttl.html
+
+More thoughts on clustering of hashtags
+- Two events are related
+    - same people go
+    - same people save it
+    - the descriptions are similar
+    - the titles are similar
+
+So cluster on events?... No an event X has 4 hash tags z,q,e,f. Then each row would be a hastag and the columns 
+
+- I'm not aware of an algorithm that IMHO gives satisfactory results. For a starter, compute how often tags are mentioned together, and use the strongly connected components. This is not found in "clustering" algorithms, but graph algorithms.
+
+New IDEA!!!
+- Just fucking count how often another hashtag is mentioned with hastag and rank!! Easy
+- Minimum Spanning tree. With edge weights inverse of the count. Idea from here
+    - https://www.cs.cmu.edu/~ckingsf/bioinfo-lectures/mst.pdf 
+    
+Clearly mapreduce. 
