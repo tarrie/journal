@@ -221,7 +221,7 @@ Notes
     
 ***Notes***
 - [DataTypes DynamoDb](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.NamingRulesDataTypes.html#HowItWorks.DataTypes)
-Env Variables to create
+- Env Variables to create
     - `S3HostName` - s3.us-east-2.amazonaws.com/tarrie.io
          - Test: https://s3.us-east-2.amazonaws.com/tarrie.io/users/becky_b1998.jpeg
 - iso format https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_date_format.html
