@@ -232,4 +232,4 @@ Notes
 - Invarient: Tarrie handles are lower case
 - Invarient: Can't join group unless invited or ask to join group
 - Aggregates need streams + lambda integration
-- 
+- https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-modeling-nosql-B.html
