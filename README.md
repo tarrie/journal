@@ -228,5 +228,7 @@ Notes
 - storing address https://softwareengineering.stackexchange.com/questions/357900/whats-a-universal-way-to-store-a-geographical-address-location-in-a-database
     - https://pe.usps.com/businessmail101?ViewName=DeliveryAddress
     -  Autocomplete address - https://stackoverflow.com/questions/4169942/how-to-auto-complete-suggest-places-with-address-on-my-website-like-on-google
+- TTL compares the current time in epoch time format to the time stored in the Time to Live attribute of an item. Super dope!!!
 - Invarient: Tarrie handles are lower case
 - Invarient: Can't join group unless invited or ask to join group
+- Aggregates need streams + lambda integration
