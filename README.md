@@ -228,3 +228,4 @@ Env Variables to create
 - storing address https://softwareengineering.stackexchange.com/questions/357900/whats-a-universal-way-to-store-a-geographical-address-location-in-a-database
     - https://pe.usps.com/businessmail101?ViewName=DeliveryAddress
     -  Autocomplete address - https://stackoverflow.com/questions/4169942/how-to-auto-complete-suggest-places-with-address-on-my-website-like-on-google
+    - Invarient: Tarrie handles are lower case
