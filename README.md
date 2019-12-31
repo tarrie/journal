@@ -278,5 +278,5 @@ Clearly mapreduce.
 - Need to come up with a privacy class for events - Asked Ryan for help on this one
 - Figured out how to think about clustering hastags (count or graph theory), and find top level hashtags (graph theory centrality measure, or counts again) 
     - [pg 41-centrality](http://www.nber.org/econometrics_minicourse_2014/Jackson-NBER-slides2014_lecture1.pdf)
-
+    - [clustering 1](https://www.csc2.ncsu.edu/faculty/nfsamato/practical-graph-mining-with-R/slides/pdf/Graph_Cluster_Analysis.pdf) 
 Tommorrow finish up datamodel. Set up database. Get some functions of API working
