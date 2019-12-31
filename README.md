@@ -233,3 +233,6 @@ Notes
 - Invarient: Can't join group unless invited or ask to join group
 - Aggregates need streams + lambda integration
 - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-modeling-nosql-B.html
+
+# 12/31/19
+-Composite Key example: https://aws.amazon.com/blogs/database/using-sort-keys-to-organize-data-in-amazon-dynamodb/
