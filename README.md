@@ -267,5 +267,7 @@ New IDEA!!!
 - Just fucking count how often another hashtag is mentioned with hastag and rank!! Easy
 - Minimum Spanning tree. With edge weights inverse of the count. Idea from here
     - https://www.cs.cmu.edu/~ckingsf/bioinfo-lectures/mst.pdf 
-    
+
+https://books.google.com/books?id=bJbuD2XH1_oC&printsec=frontcover&dq=social+network+analysis+economics&hl=en&newbks=1&newbks_redir=0&sa=X&ved=2ahUKEwia76DMhuHmAhXPPM0KHTSVAFUQ6AEwAHoECAAQAg#v=onepage&q=social%20network%20analysis%20economics&f=false
+
 Clearly mapreduce. 
