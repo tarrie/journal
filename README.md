@@ -226,3 +226,5 @@ Env Variables to create
          - Test: https://s3.us-east-2.amazonaws.com/tarrie.io/users/becky_b1998.jpeg
 - iso format https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_date_format.html
 - storing address https://softwareengineering.stackexchange.com/questions/357900/whats-a-universal-way-to-store-a-geographical-address-location-in-a-database
+    - https://pe.usps.com/businessmail101?ViewName=DeliveryAddress
+    -  Autocomplete address - https://stackoverflow.com/questions/4169942/how-to-auto-complete-suggest-places-with-address-on-my-website-like-on-google
