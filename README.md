@@ -250,3 +250,4 @@ Notes
 
 ***Privacy Class*** Need to create this
 	
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/howitworks-ttl.html
