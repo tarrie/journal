@@ -277,5 +277,6 @@ Clearly mapreduce.
     - https://docs.google.com/spreadsheets/d/1Z7QqBW91Jye4lVplfZYxUCWf3E1UgJoHvRGOWgsBwdU/edit?usp=sharing
 - Need to come up with a privacy class for events - Asked Ryan for help on this one
 - Figured out how to think about clustering hastags (count or graph theory), and find top level hashtags (graph theory centrality measure, or counts again) 
+    - [pg 41-centrality](http://www.nber.org/econometrics_minicourse_2014/Jackson-NBER-slides2014_lecture1.pdf)
 
 Tommorrow finish up datamodel. Set up database. Get some functions of API working
