@@ -232,3 +232,4 @@ Notes
 - Invarient: Tarrie handles are lower case
 - Invarient: Can't join group unless invited or ask to join group
 - Aggregates need streams + lambda integration
+- 
