@@ -309,3 +309,7 @@ pretty excited to get back to coding organizaing the datamodel, and the API mode
     - https://stackoverflow.com/questions/37072341/how-to-use-auto-increment-for-primary-key-id-in-dynamodb
 
 - DB mapper -- https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBMapper.html
+- Need to upload images to s3: https://javatutorial.net/java-s3-example
+
+***Recap***
+- Uploaded data to DynamoDb in a clean way which is nice
