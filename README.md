@@ -290,4 +290,5 @@ Tommorrow finish up datamodel. Set up database. Get some functions of API workin
         - ***join tarrie should def be prominent. This could be the main way we spread tarrie.***
         - ***Ask to enter email to be notified of changes to event*** 
 	- Need to design the UI for this before we add the api. 
+	- Need to design the UI for email event invites as well. 
 - Also email blast invitations - email integration - calender integration
