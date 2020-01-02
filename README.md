@@ -298,4 +298,5 @@ Tommorrow finish up datamodel. Set up database. Get some functions of API workin
 - Created classes for privacy and link sharing of events basically works like event privacy on FB, and link sharing settings via Google Docs
 - Created table its called "tarrie.io". The schema is super flexible so the main part is figuring out the JAVA SDK for DynamoDb
 - The API actually doesn't need to be implemented just the underlying functions. The main part of the underlying functions is to implement the [Data Model](https://docs.google.com/spreadsheets/d/1Z7QqBW91Jye4lVplfZYxUCWf3E1UgJoHvRGOWgsBwdU/edit?usp=sharing)
+    - dynamoDB_initial <- the current branch
 - Btw implemnting a chat room for a event is pretty trivial. Adding additional attributes to event like tickets is trivial -- wont implement
