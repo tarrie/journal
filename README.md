@@ -302,3 +302,6 @@ Tommorrow finish up datamodel. Set up database. Get some functions of API workin
 - Btw implemnting a chat room for a event is pretty trivial. Adding additional attributes to event like tickets is trivial -- wont implement
 
 pretty excited to get back to coding organizaing the datamodel, and the API model via the interfaces was exhausting. Note API is just basic functionality. 
+
+# 1/2/20
+- Generating automatic id's -> https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c
