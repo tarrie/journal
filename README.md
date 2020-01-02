@@ -312,6 +312,12 @@ pretty excited to get back to coding organizaing the datamodel, and the API mode
 - Need to upload images to s3: 
     - https://javatutorial.net/java-s3-example
     - https://www.baeldung.com/aws-s3-java
-
+- FIle uploads
+    - https://stackoverflow.com/questions/12385179/how-to-send-a-multipart-form-data-with-requests-in-python
+    - https://www.mkyong.com/webservices/jax-rs/file-upload-example-in-jersey/
+    - https://stackoverflow.com/questions/43042805/how-to-send-a-multipart-form-data-with-requests-in-python
+    - https://stackoverflow.com/questions/4526273/what-does-enctype-multipart-form-data-mean
+    - https://www.w3.org/TR/html401/interact/forms.html#h-17.13.4
+    - ***GOLD*** https://stackoverflow.com/questions/27609569/file-upload-along-with-other-object-in-jersey-restful-web-service
 ***Recap***
 - Uploaded data to DynamoDb in a clean way which is nice
