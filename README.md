@@ -280,3 +280,14 @@ Clearly mapreduce.
     - [pg 41-centrality](http://www.nber.org/econometrics_minicourse_2014/Jackson-NBER-slides2014_lecture1.pdf)
     - [clustering 1](https://www.csc2.ncsu.edu/faculty/nfsamato/practical-graph-mining-with-R/slides/pdf/Graph_Cluster_Analysis.pdf) 
 Tommorrow finish up datamodel. Set up database. Get some functions of API working
+
+
+# 1/1/20
+- Google can check emails to suggest that "anyone in northwestern can view event"
+- Tarrie only support "Anyone who has link can access. No sign-in required". Make this a enum so we can expand later
+    - the timy url will be a random 6 character string, appended to the eventId like so: {eventId}#{randomString}
+    - The endpoint will link the event to a user tarrie account if logged in, at the bottom it will have option of logging in or joining tarrie. 
+        - ***join tarrie should def be prominent. This could be the main way we spread tarrie.***
+        - ***Ask to enter email to be notified of changes to event*** 
+	- Need to design the UI for this before we add the api. 
+- Also email blast invitations - email integration - calender integration
