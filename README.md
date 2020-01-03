@@ -335,3 +335,6 @@ pretty excited to get back to coding organizaing the datamodel, and the API mode
 
 tommorow just build the backend code monkey type shit. btw unit testing this shit via mock is going to be annoying <br>
 Also just looked at the traffic for this journal... who is cloning this shit? wtf
+
+# 1/3/20
+- [Crud operations Java/DynamoDb](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/JavaDocumentAPICRUDExample.html)
