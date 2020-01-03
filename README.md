@@ -324,5 +324,7 @@ pretty excited to get back to coding organizaing the datamodel, and the API mode
         - https://stackoverflow.com/questions/16149507/obtaining-raw-request-body-in-jax-rs-resource-method
         - https://phil.tech/api/2016/01/04/http-rest-api-file-uploads/
 	- (what is input stream)
+    - acceptable media type {image/gif, image/jpeg, image/png}
+        - `String mimeType = body.getMediaType().toString();`
 ***Recap***
 - Uploaded data to DynamoDb in a clean way which is nice
