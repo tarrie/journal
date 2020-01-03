@@ -338,3 +338,4 @@ Also just looked at the traffic for this journal... who is cloning this shit? wt
 
 # 1/3/20
 - [Crud operations Java/DynamoDb](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/JavaDocumentAPICRUDExample.html)
+- [Java Annoations for DynamoDb](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBMapper.Annotations.html)
