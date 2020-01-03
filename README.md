@@ -323,5 +323,6 @@ pretty excited to get back to coding organizaing the datamodel, and the API mode
     - Getting HTTP Header - https://dzone.com/articles/jax-rs-what-is-context
         - https://stackoverflow.com/questions/16149507/obtaining-raw-request-body-in-jax-rs-resource-method
         - https://phil.tech/api/2016/01/04/http-rest-api-file-uploads/
+	- (what is input stream)
 ***Recap***
 - Uploaded data to DynamoDb in a clean way which is nice
