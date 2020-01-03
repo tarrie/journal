@@ -320,6 +320,8 @@ pretty excited to get back to coding organizaing the datamodel, and the API mode
     - https://www.w3.org/TR/html401/interact/forms.html#h-17.13.4
     - ***GOLD*** https://stackoverflow.com/questions/27609569/file-upload-along-with-other-object-in-jersey-restful-web-service
     - (JAVASCRIPT) https://developer.mozilla.org/en-US/docs/Web/API/FormData/Using_FormData_Objects
-    
+    - Getting HTTP Header - https://dzone.com/articles/jax-rs-what-is-context
+        - https://stackoverflow.com/questions/16149507/obtaining-raw-request-body-in-jax-rs-resource-method
+        - https://phil.tech/api/2016/01/04/http-rest-api-file-uploads/
 ***Recap***
 - Uploaded data to DynamoDb in a clean way which is nice
