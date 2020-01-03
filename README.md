@@ -326,8 +326,9 @@ pretty excited to get back to coding organizaing the datamodel, and the API mode
 	- (what is input stream)
     - acceptable media type {image/gif, image/jpeg, image/png}
         - `String mimeType = body.getMediaType().toString();`
+	
 ***Recap***
 - Uploaded data to DynamoDb in a clean way which is nice
 - Got S3 uploads going
-- tommorow just build the backend code monkey type shit
-- unit testing this shit via mock is going to be annoying
+
+tommorow just build the backend code monkey type shit. btw unit testing this shit via mock is going to be annoying
