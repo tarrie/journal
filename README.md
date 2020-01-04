@@ -342,3 +342,7 @@ Also just looked at the traffic for this journal... who is cloning this shit? wt
 - [Working with Items in DynamoDB
 ](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/examples-dynamodb-items.html)
 - [Get Item](https://docs.aws.amazon.com/code-samples/latest/catalog/java-dynamodb-src-main-java-aws-example-dynamodb-GetItem.java.html)
+
+# 1/4/20
+- [Update Item1](https://dzone.com/articles/update-dynamodb-items-withnbspjava)
+- [CRUD - Update Item2](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.Java.03.html#GettingStarted.Java.03.03)
