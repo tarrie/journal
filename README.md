@@ -346,3 +346,4 @@ Also just looked at the traffic for this journal... who is cloning this shit? wt
 # 1/4/20
 - [Update Item1](https://dzone.com/articles/update-dynamodb-items-withnbspjava)
 - [CRUD - Update Item2](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.Java.03.html#GettingStarted.Java.03.03)
+- [DynamoDb Update Expressions](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.UpdateExpressions.html)
