@@ -371,3 +371,5 @@ Also just looked at the traffic for this journal... who is cloning this shit? wt
 - Created `Controller` class which contains the underlying functions that the API calls. Implemented 3 functions in the controller class and some other subsidiary functions in the `TarrieDynamoDb` & `TarrieS3` class. 
 - Tommorrow continue to complete uncheck functions.
 - Tommorrow implement the GSI's since [they are needed for deletes](https://stackoverflow.com/questions/52747889/how-to-update-an-item-using-partition-key-of-global-secondary-index)
+
+Branch is still `dynamoDB_initial` in https://github.com/tarrie/io.tarrie.api
