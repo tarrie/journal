@@ -353,4 +353,6 @@ Also just looked at the traffic for this journal... who is cloning this shit? wt
 ***Functions to make in `Controller`***
 - [X] createUser()
 - [X] uploadProfileImg()
+- [ ] doUsersExist()
+    - [Batch Get Item](https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_BatchGetItem.html)
 
