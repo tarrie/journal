@@ -377,3 +377,7 @@ Also just looked at the traffic for this journal... who is cloning this shit? wt
 - Tommorrow implement the GSI's since [they are needed for deletes](https://stackoverflow.com/questions/52747889/how-to-update-an-item-using-partition-key-of-global-secondary-index)
 
 Branch is still `dynamoDB_initial` in https://github.com/tarrie/io.tarrie.api
+
+# 1/5/2020
+- [conditional updates (stackoverflow)](https://stackoverflow.com/questions/28081401/dynamodbmapper-for-conditional-saves)
+    - [conditional updates (aws)](https://aws.amazon.com/blogs/developer/specifying-conditional-constraints-with-amazon-dynamodb-mapper/)
