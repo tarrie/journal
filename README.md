@@ -353,6 +353,17 @@ Also just looked at the traffic for this journal... who is cloning this shit? wt
 ***Functions to make in `Controller`***
 - [X] createUser()
 - [X] uploadProfileImg()
-- [ ] doUsersExist()
-    - [Batch Get Item](https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_BatchGetItem.html)
+- [X] userExists(List<String> userIds)
+    - [Batch Get Item](https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_BatchGetItem.html), [Java Batch Get Item](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/batch-operation-document-api-java.html)
+    - Limit is 100 users. 
+- [ ] addContact()
+- [ ] userFollowEntity()
+- [ ] userSendMessage()
+	- msgType: groupJoin - user requesting to join a group
+	- msgType: inbox - user is communicating with other user
+	- msgType: eventInvite - user is inviting someone to a event
+- [ ] groupAddMember()
+- [ ] deleteUser()
+- [ ] getUser()
+- [ ] editUser()
 
