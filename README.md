@@ -1,6 +1,10 @@
 # journal
 journal for jessie
 
+- [Data Model](https://docs.google.com/spreadsheets/d/1Z7QqBW91Jye4lVplfZYxUCWf3E1UgJoHvRGOWgsBwdU/edit?usp=sharing)
+- [Code](https://github.com/tarrie/io.tarrie.api)
+    - [Current Branch in this pull req](https://github.com/tarrie/io.tarrie.api/pull/1)
+
 # 12/14/14
 
 - Created a AWS account, the domain tarrie.io is available via AWS Route 53 thank the lord! However its $40 bucks should I pay for it? 
