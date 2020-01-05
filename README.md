@@ -349,3 +349,8 @@ Also just looked at the traffic for this journal... who is cloning this shit? wt
 - [DynamoDb Update Expressions](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.UpdateExpressions.html)
 -[Whats a document path](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.Attributes.html#Expressions.Attributes.NestedElements.DocumentPathExamples)
     - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.Attributes.html
+    
+***Functions to make in `Controller`***
+- [X] createUser()
+- [X] uploadProfileImg()
+
