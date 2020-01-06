@@ -403,3 +403,6 @@ https://egkatzioura.com/2016/10/03/query-dynamodb-items-with-dynamodbmapper/
 Questions
 - I have a operation that uploads a picture to s3 then updates the image path on DynamoDb... doesn't this need to be atomic? 
     - Ask Jesse or Steve
+
+
+took awhile to find this error but w/ DynamoDb mapper class the getter/setter for range and pk has to be fucking exact, anything else will return a null ptr excpetion... can do whatever w/ other attributes tho. Little progresss today because of debug :(
