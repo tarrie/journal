@@ -382,3 +382,5 @@ Branch is still `dynamoDB_initial` in https://github.com/tarrie/io.tarrie.api
 - [conditional updates (stackoverflow)](https://stackoverflow.com/questions/28081401/dynamodbmapper-for-conditional-saves)
     - [conditional updates (aws)](https://aws.amazon.com/blogs/developer/specifying-conditional-constraints-with-amazon-dynamodb-mapper/)
 - [crazy good documentation for dynamodb mapper](https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/dynamodbv2/datamodeling/DynamoDBMapper.html)
+- [transactions w/ mapper](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBMapper.Transactions.html)
+    - [transactions w/o mapper](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/transaction-example.html)
