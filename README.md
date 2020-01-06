@@ -406,3 +406,9 @@ Questions
 
 
 took awhile to find this error but w/ DynamoDb mapper class the getter/setter for range and pk has to be fucking exact, anything else will return a null ptr excpetion... can do whatever w/ other attributes tho. Little progresss today because of debug :(
+
+
+# 1/6/20
+
+
+- [Nested pojo for DynamoDb mapper](https://stackoverflow.com/questions/45023747/nested-json-structure)
