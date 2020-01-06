@@ -384,3 +384,5 @@ Branch is still `dynamoDB_initial` in https://github.com/tarrie/io.tarrie.api
 - [crazy good documentation for dynamodb mapper](https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/dynamodbv2/datamodeling/DynamoDBMapper.html)
 - [transactions w/ mapper](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBMapper.Transactions.html)
     - [transactions w/o mapper](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/transaction-example.html)
+
+https://aws.amazon.com/blogs/developer/using-s3link-with-amazon-dynamodb/
