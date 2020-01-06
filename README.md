@@ -386,3 +386,14 @@ Branch is still `dynamoDB_initial` in https://github.com/tarrie/io.tarrie.api
     - [transactions w/o mapper](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/transaction-example.html)
 
 https://aws.amazon.com/blogs/developer/using-s3link-with-amazon-dynamodb/
+
+- [ ] addContact()
+- [ ] userFollowEntity()
+- [ ] userSendMessage()
+	- msgType: groupJoin - user requesting to join a group
+	- [x] msgType: inbox - user is communicating with other user - *needed transactions*
+	- msgType: eventInvite - user is inviting someone to a event
+- [ ] groupAddMember()
+- [ ] deleteUser()
+- [ ] getUser()
+- [ ] editUser()
