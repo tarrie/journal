@@ -412,7 +412,7 @@ took awhile to find this error but w/ DynamoDb mapper class the getter/setter fo
 
 
 - [Nested pojo for DynamoDb mapper](https://stackoverflow.com/questions/45023747/nested-json-structure)
-
+- https://stackoverflow.com/questions/30793481/dynamodb-jsonmarshaller-cannot-deserialize-list-of-object
 
 - [x] addContact()
 - [x] userFollowEntity()
