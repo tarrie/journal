@@ -437,3 +437,12 @@ took awhile to find this error but w/ DynamoDb mapper class the getter/setter fo
 Should add junit soon
 
 -https://www.baeldung.com/dynamodb-local-integration-tests
+
+# 1/7/2020
+***Tips for developing***
+- Swarm get the team together to hack
+- Vertical slices - so backend, front-end, UI - so we can have something tesitbale
+    - Whats the one simplest thing you can do?
+- Payoff: whatever is a delighter. 
+- Kano Model = distingusihes things that a product needs
+    - Delighters - things that are different from other products - this is somethings you implement first. "This is the neat part"
