@@ -416,6 +416,7 @@ took awhile to find this error but w/ DynamoDb mapper class the getter/setter fo
 
 - [x] addContact()
 - [x] userFollowEntity()
+- [x] joingGroup()
 - [ ] userSendMessage()
 	- msgType: groupJoin - user requesting to join a group
 	- [x] msgType: inbox - user is communicating with other user - *needed transactions*
