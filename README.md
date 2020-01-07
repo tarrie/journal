@@ -422,12 +422,15 @@ took awhile to find this error but w/ DynamoDb mapper class the getter/setter fo
 - [x] addContact()
 - [x] userFollowEntity()
 - [x] groupAddMember()
-- [ ] userSendMessage()
+- [ ] sendMessage()
 	- msgType: groupJoin - user requesting to join a group
 	- [x] msgType: inbox - user is communicating with other user - *needed transactions*
 	- msgType: eventInvite - user is inviting someone to a event
-- [x] createGroup()
+- [x] createGroup() `error is a post shold fail if done x2, doesnt fail currently :(`
 - [ ] deleteUser()
+- [ ] deleteGroup()
+- [ ] editUser()
+- [ ] editroup()
 - [ ] getUser()
 - [ ] editUser()
 
