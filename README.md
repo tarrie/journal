@@ -412,3 +412,18 @@ took awhile to find this error but w/ DynamoDb mapper class the getter/setter fo
 
 
 - [Nested pojo for DynamoDb mapper](https://stackoverflow.com/questions/45023747/nested-json-structure)
+
+
+- [x] addContact()
+- [x] userFollowEntity()
+- [ ] userSendMessage()
+	- msgType: groupJoin - user requesting to join a group
+	- [x] msgType: inbox - user is communicating with other user - *needed transactions*
+	- msgType: eventInvite - user is inviting someone to a event
+- [ ] createGroup()
+- [ ] groupAddMember()
+- [ ] deleteUser()
+- [ ] getUser()
+- [ ] editUser()
+
+Should add junit soon
