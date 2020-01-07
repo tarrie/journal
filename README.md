@@ -428,6 +428,8 @@ took awhile to find this error but w/ DynamoDb mapper class the getter/setter fo
 	- msgType: eventInvite - user is inviting someone to a event
 - [x] createGroup() `error is a post shold fail if done x2, doesnt fail currently :(`
 - [ ] deleteUser()
+	- [Query and scan](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.Java.04.html)
+	- [Working w/ queries DynamoDb](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Query.html)
 - [ ] deleteGroup()
 - [ ] editUser()
 - [ ] editroup()
