@@ -428,3 +428,5 @@ took awhile to find this error but w/ DynamoDb mapper class the getter/setter fo
 - [ ] editUser()
 
 Should add junit soon
+
+-https://www.baeldung.com/dynamodb-local-integration-tests
