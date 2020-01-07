@@ -414,15 +414,19 @@ took awhile to find this error but w/ DynamoDb mapper class the getter/setter fo
 - [Nested pojo for DynamoDb mapper](https://stackoverflow.com/questions/45023747/nested-json-structure)
 - https://stackoverflow.com/questions/30793481/dynamodb-jsonmarshaller-cannot-deserialize-list-of-object
 
+- [X] createUser()
+- [X] uploadProfileImg()
+- [X] userExists(List<String> userIds)
+    - [Batch Get Item](https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_BatchGetItem.html), [Java Batch Get Item](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/batch-operation-document-api-java.html)
+    - Limit is 100 users. 
 - [x] addContact()
 - [x] userFollowEntity()
-- [x] joingGroup()
+- [x] groupAddMember()
 - [ ] userSendMessage()
 	- msgType: groupJoin - user requesting to join a group
 	- [x] msgType: inbox - user is communicating with other user - *needed transactions*
 	- msgType: eventInvite - user is inviting someone to a event
-- [ ] createGroup()
-- [ ] groupAddMember()
+- [x] createGroup()
 - [ ] deleteUser()
 - [ ] getUser()
 - [ ] editUser()
