@@ -444,6 +444,8 @@ Should add junit soon
 
 [batch delete](https://stackoverflow.com/questions/9154264/what-is-the-recommended-way-to-delete-a-large-number-of-items-from-dynamodb) 
 
+[batch ops in dynamo](https://docs.amazonaws.cn/en_us/amazondynamodb/latest/developerguide/batch-operation-document-api-java.html)
+
 # 1/7/2020
 ***Tips for developing***
 - Swarm get the team together to hack
