@@ -426,10 +426,11 @@ took awhile to find this error but w/ DynamoDb mapper class the getter/setter fo
 	- msgType: groupJoin - user requesting to join a group
 	- [x] msgType: inbox - user is communicating with other user - *needed transactions*
 	- msgType: eventInvite - user is inviting someone to a event
-- [x] createGroup() `error is a post shold fail if done x2, doesnt fail currently :(`
+- [x] createGroup() `(fixed)`
 - [ ] deleteUser()
 	- [x] transferGroupOwner()
 	    - [x] getMembershipTypeOfUser()
+	- [ ] need to use transferGroupOwner() to transfer ownership to a Admin, if no Admin then a member, if no members then deleteGroup()
 	- [x] batch delete w/ TarrieDynamoDb.batchWriteOutcome()
 	- [ ] deleteUserEvents()
 	    - delete all events the user is hosting
