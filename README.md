@@ -441,6 +441,9 @@ Should add junit soon
 -https://www.baeldung.com/dynamodb-local-integration-tests
 
 [Looks like a nice Dynamo Ref](https://www.javacodegeeks.com/2017/10/amazon-dynamodb-tutorial.html) 
+
+[batch delete](https://stackoverflow.com/questions/9154264/what-is-the-recommended-way-to-delete-a-large-number-of-items-from-dynamodb) 
+
 # 1/7/2020
 ***Tips for developing***
 - Swarm get the team together to hack
