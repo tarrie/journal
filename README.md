@@ -430,7 +430,7 @@ took awhile to find this error but w/ DynamoDb mapper class the getter/setter fo
 - [ ] deleteUser()
 	- [x] transferGroupOwner()
 	    - [x] getMembershipTypeOfUser()
-	- [ ] need to use transferGroupOwner() to transfer ownership to a Admin, if no Admin then a member, if no members then deleteGroup()
+	- [ ] check if user owns any groups then need to use transferGroupOwner() to transfer ownership to a Admin, if no Admin then a member, if no members then deleteGroup()
 	- [x] batch delete w/ TarrieDynamoDb.batchWriteOutcome()
 	- [ ] deleteUserEvents()
 	    - delete all events the user is hosting
