@@ -446,6 +446,8 @@ Should add junit soon
 
 [batch ops in dynamo](https://docs.amazonaws.cn/en_us/amazondynamodb/latest/developerguide/batch-operation-document-api-java.html)
 
+[bathc again](https://github.com/aws/aws-sdk-java/blob/master/src/samples/AmazonDynamoDBDocumentAPI/quick-start/com/amazonaws/services/dynamodbv2/document/quickstart/I_BatchWriteItemTest.java)
+
 # 1/7/2020
 ***Tips for developing***
 - Swarm get the team together to hack
