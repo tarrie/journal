@@ -428,8 +428,11 @@ took awhile to find this error but w/ DynamoDb mapper class the getter/setter fo
 	- msgType: eventInvite - user is inviting someone to a event
 - [x] createGroup() `error is a post shold fail if done x2, doesnt fail currently :(`
 - [ ] deleteUser()
-	- [Query and scan](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.Java.04.html)
-	- [Working w/ queries DynamoDb](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Query.html)
+	- [x] transferGroupOwner()
+	    - [x] getMembershipTypeOfUser()
+	- [x] batch delete w/ TarrieDynamoDb.batchWriteOutcome()
+	- [ ] deleteUserEvents()
+	    - delete all events the user is hosting
 - [ ] deleteGroup()
 - [ ] editUser()
 - [ ] editroup()
@@ -438,6 +441,8 @@ took awhile to find this error but w/ DynamoDb mapper class the getter/setter fo
 
 Should add junit soon
 
+- [Query and scan](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.Java.04.html)
+- [Working w/ queries DynamoDb](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Query.html)
 -https://www.baeldung.com/dynamodb-local-integration-tests
 
 [Looks like a nice Dynamo Ref](https://www.javacodegeeks.com/2017/10/amazon-dynamodb-tutorial.html) 
@@ -447,6 +452,8 @@ Should add junit soon
 [batch ops in dynamo](https://docs.amazonaws.cn/en_us/amazondynamodb/latest/developerguide/batch-operation-document-api-java.html)
 
 [bathc again](https://github.com/aws/aws-sdk-java/blob/master/src/samples/AmazonDynamoDBDocumentAPI/quick-start/com/amazonaws/services/dynamodbv2/document/quickstart/I_BatchWriteItemTest.java)
+
+[Querying and name map](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.Java.04.html)
 
 # 1/7/2020
 ***Tips for developing***
