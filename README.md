@@ -478,3 +478,9 @@ Should add junit soon
 
 Met w/ Jesse: He mentioned concerns about consistenct and data duplication have to consider this. One case was in deleting shit: could either post to a queue for eventual deletion, or add a attribute called delete and mark a object for deleltion?
 
+# 1/9/20
+
+***Tips for developing***
+Story panels
+- Importnant because 1st time define in easy snapshot what the app is suppose to be, and show how its improves on something
+- It also tells first thing going to build (panel 3)
