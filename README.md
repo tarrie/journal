@@ -484,3 +484,7 @@ Met w/ Jesse: He mentioned concerns about consistenct and data duplication have 
 Story panels
 - Importnant because 1st time define in easy snapshot what the app is suppose to be, and show how its improves on something
 - It also tells first thing going to build (panel 3)
+    - (panel 3) Important because it shows the value that app is giving. The interface must be clear what value getting from it. 
+    - (panel 3) What make the product distinctive. Show the power of the app, our app came to conclusion of panel 4 because `this` happened in (panel 3). 
+    - Using the app is not the payoff -> solving the problem is the payof
+    
