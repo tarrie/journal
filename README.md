@@ -464,3 +464,17 @@ Should add junit soon
 - Payoff: whatever is a delighter. 
 - Kano Model = distingusihes things that a product needs
     - Delighters - things that are different from other products - this is somethings you implement first. "This is the neat part"
+    
+# 1/8/20
+
+- [ ] createEvent()
+- [ ] deleteUser()
+	- [x] transferGroupOwner()
+	    - [x] getMembershipTypeOfUser()
+	- [ ] check if user owns any groups then need to use transferGroupOwner() to transfer ownership to a Admin, if no Admin then a member, if no members then deleteGroup()
+	- [x] batch delete w/ TarrieDynamoDb.batchWriteOutcome()
+	- [ ] deleteUserEvents()
+	    - delete all events the user is hosting
+
+Met w/ Jesse: He mentioned concerns about consistenct and data duplication have to consider this. One case was in deleting shit: could either post to a queue for eventual deletion, or add a attribute called delete and mark a object for deleltion?
+
