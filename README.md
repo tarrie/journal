@@ -496,3 +496,12 @@ Story panels
     - store `userInfo` in RSVP now so that in the reserve search we can easily see the user `pic` and `name` and `id` when looking at who rsvp'd to event. 
     - Created a local sort key on `startTime` so that when a user is looking at his/her event either HOST, SAVED, RSVP and look at events that are active `startTime`>= currentTime. 
     - GSI-1 is now the index to use to find all the host of a event, all the people who has saved a event, all the people who have rsvp'd event
+    
+    
+ ***Create Event***
+ - createEvent()
+     - create the hostEvent item in DynamoDb -> connects to the user
+     - implement inviteEntitiesToEvent() -> invites the entites listed in `private List<String> invitedEntityIds;` to the event
+     - generate the hashTag entries for the event. 
+ 
+ Need to have better fake data. 
