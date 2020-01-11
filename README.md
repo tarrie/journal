@@ -492,3 +492,7 @@ Story panels
 
 - While working on the shitty app find-my-time came across a nice api for google cal especially the description of calendar and events. Will be useful later. https://developers.google.com/calendar/concepts/events-calendars
 - Met w/ Tarzi, data duplication depends on the access patterns. If most people are reading, then pay the penality of writes for data duplication. If the amount of writes scale linearly pay more attention to the writes. Since only a select amount of people can edit a event, lets just duplicate the data for now. 
+- Changes to the relationship that covers HOST, SAVED, RSVP
+    - store `userInfo` in RSVP now so that in the reserve search we can easily see the user `pic` and `name` and `id` when looking at who rsvp'd to event. 
+    - Created a local sort key on `startTime` so that when a user is looking at his/her event either HOST, SAVED, RSVP and look at events that are active `startTime`>= currentTime. 
+    - GSI-1 is now the index to use to find all the host of a event, all the people who has saved a event, all the people who have rsvp'd event
