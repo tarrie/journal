@@ -487,4 +487,8 @@ Story panels
     - (panel 3) Important because it shows the value that app is giving. The interface must be clear what value getting from it. 
     - (panel 3) What make the product distinctive. Show the power of the app, our app came to conclusion of panel 4 because `this` happened in (panel 3). 
     - Using the app is not the payoff -> solving the problem is the payof
-    
+
+# 1/10/20
+
+- While working on the shitty app find-my-time came across a nice api for google cal especially the description of calendar and events. Will be useful later. https://developers.google.com/calendar/concepts/events-calendars
+- Met w/ Tarzi, data duplication depends on the access patterns. If most people are reading, then pay the penality of writes for data duplication. If the amount of writes scale linearly pay more attention to the writes. Since only a select amount of people can edit a event, lets just duplicate the data for now. 
