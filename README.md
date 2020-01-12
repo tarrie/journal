@@ -505,3 +505,7 @@ Story panels
      - generate the hashTag entries for the event. 
  
  Need to have better fake data. 
+
+# 1/11/20
+Use atomic counter when increasing the number of rsvps
+-message design was a time sink today sheesh. Trying to do conditional puts tho.
