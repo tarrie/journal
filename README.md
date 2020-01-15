@@ -509,3 +509,16 @@ Story panels
 # 1/11/20
 Use atomic counter when increasing the number of rsvps
 -message design was a time sink today sheesh. Trying to do conditional puts tho.
+
+# 1/14/20
+***Notes on project management***
+- Everything done in slices - every day - like 2hr a day
+- Bus factor - how many people hit by a bus for project to get stalled?
+
+How to make a demo - https://courses.cs.northwestern.edu/394/demo-one.php
+- Read demo task page
+- Do not give a feature tour these don't tell why you wnat the product. A demo should be a story
+- A demo should have a real story that shows payoff. Most of it is the payoff. Slide 4
+    - before we couldnt meet, and the punchline is the thing tells use when we can meet. 
+- A demo is critical for development - understand what people resonate to, missing, and what to do next. So told the story of a student that needed to learn something. Everything is driven towards how soon can tell a story. 
+    - Stories are how we constantly think about design. 
