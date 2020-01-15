@@ -522,3 +522,6 @@ How to make a demo - https://courses.cs.northwestern.edu/394/demo-one.php
     - before we couldnt meet, and the punchline is the thing tells use when we can meet. 
 - A demo is critical for development - understand what people resonate to, missing, and what to do next. So told the story of a student that needed to learn something. Everything is driven towards how soon can tell a story. 
     - Stories are how we constantly think about design. 
+    
+# 1/15/20
+- Need sample data . really need this wrote atleast 500lins w/o testing. this si next. fixed my 
