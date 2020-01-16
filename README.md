@@ -525,3 +525,6 @@ How to make a demo - https://courses.cs.northwestern.edu/394/demo-one.php
     
 # 1/15/20
 - Need sample data . really need this wrote atleast 500lins w/o testing. this si next. fixed my 
+
+Rando Business rules
+- For now can't follow group that already a member of because by default you are already following. 
