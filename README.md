@@ -531,3 +531,4 @@ Rando Business rules
 
 # 1/16/20
 - `Controller.uploadProfileImg()`: Only updates the entity but does not update imgPath. Easy way around this is to download the default pic to the persons path. Then the path will always hav a value and we won't need to update. this is actually straight forward to do unfortunaly so lets do it :(
+    - Or find a way to update all things pointing to entity so pic always up to date. 
