@@ -528,3 +528,6 @@ How to make a demo - https://courses.cs.northwestern.edu/394/demo-one.php
 
 Rando Business rules
 - For now can't follow group that already a member of because by default you are already following. 
+
+# 1/16/20
+- `Controller.uploadProfileImg()`: Only updates the entity but does not update imgPath. Easy way around this is to download the default pic to the persons path. Then the path will always hav a value and we won't need to update. this is actually straight forward to do unfortunaly so lets do it :(
