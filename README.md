@@ -532,3 +532,5 @@ Rando Business rules
 # 1/16/20
 - `Controller.uploadProfileImg()`: Only updates the entity but does not update imgPath. Easy way around this is to download the default pic to the persons path. Then the path will always hav a value and we won't need to update. this is actually straight forward to do unfortunaly so lets do it :(
     - Or find a way to update all things pointing to entity so pic always up to date. 
+- Any moderator can kick each moderator that joined after them (assuming everyone has full permissions).The head moderator (the first person in the list) can only leave by themselves or be removed if the sub is requested in the sub r/redditrequest if all mods are inactive from reddit for more than 60 days.
+    - added time stamps maybe will implement this for now owners can kick out admins. 
