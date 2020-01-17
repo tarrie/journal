@@ -534,3 +534,8 @@ Rando Business rules
     - Or find a way to update all things pointing to entity so pic always up to date. 
 - Any moderator can kick each moderator that joined after them (assuming everyone has full permissions).The head moderator (the first person in the list) can only leave by themselves or be removed if the sub is requested in the sub r/redditrequest if all mods are inactive from reddit for more than 60 days.
     - added time stamps maybe will implement this for now owners can kick out admins. 
+    
+    
+***UI Design***
+- (Create Event & Create Event)https://dribbble.com/shots/7376532-Skype-redesign-concept-New-Group-Chat-1-2
+- (Messaging) https://dribbble.com/shots/6303653-SBS-App-Messaging/attachments
