@@ -539,3 +539,9 @@ Rando Business rules
 ***UI Design***
 - (Create Event & Create Event)https://dribbble.com/shots/7376532-Skype-redesign-concept-New-Group-Chat-1-2
 - (Messaging) https://dribbble.com/shots/6303653-SBS-App-Messaging/attachments
+
+# 1/24/20
+Primary color: #006400
+UI Design 
+- https://material.io/design/color/#
+- https://material.io/design/color/the-color-system.html#tools-for-picking-colors
