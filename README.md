@@ -551,3 +551,4 @@ UI Design
 Set up react native. 
 
 -Transfer to a new stack when click explore mode
+- Group Name [green] . Events [greyed out]
