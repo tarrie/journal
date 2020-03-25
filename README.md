@@ -545,3 +545,9 @@ Primary color: #006400
 UI Design 
 - https://material.io/design/color/#
 - https://material.io/design/color/the-color-system.html#tools-for-picking-colors
+
+# 3/25/20
+
+Set up react native. 
+
+-Transfer to a new stack when click explore mode
