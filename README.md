@@ -556,3 +556,5 @@ Set up react native.
 -Tommorow make GroupContext since some of the group info needs to be accessed in navigator for the header. 
 -Finish the header for the group
 - https://react-native-elements.github.io/react-native-elements/docs/searchbar.html
+
+parallax-scroll :
