@@ -555,3 +555,4 @@ Set up react native.
     - use snapchat bottom nav switch. 
 -Tommorow make GroupContext since some of the group info needs to be accessed in navigator for the header. 
 -Finish the header for the group
+- https://react-native-elements.github.io/react-native-elements/docs/searchbar.html
