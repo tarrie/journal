@@ -553,4 +553,5 @@ Set up react native.
 -Transfer to a new stack when click explore mode
 - Group Name [green] . Events [greyed out]
     - use snapchat bottom nav switch. 
-Tommorow make GroupContext since some of the group info needs to be accessed in navigator for the header. 
+-Tommorow make GroupContext since some of the group info needs to be accessed in navigator for the header. 
+-Finish the header for the group
