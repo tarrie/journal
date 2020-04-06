@@ -319,6 +319,7 @@ pretty excited to get back to coding organizaing the datamodel, and the API mode
     - https://stackoverflow.com/questions/35582224/uploading-image-to-s3-bucket-java-sdk
     - https://sysadmins.co.za/aws-java-sdk-detect-if-s3-object-exists-using-doesobjectexist/
 - FIle uploads
+    - https://stackoverflow.com/questions/4157127/how-to-get-mime-type-of-uploaded-file-in-jersey
     - https://stackoverflow.com/questions/12385179/how-to-send-a-multipart-form-data-with-requests-in-python
     - https://www.mkyong.com/webservices/jax-rs/file-upload-example-in-jersey/
     - https://stackoverflow.com/questions/43042805/how-to-send-a-multipart-form-data-with-requests-in-python
@@ -558,3 +559,4 @@ Set up react native.
 - https://react-native-elements.github.io/react-native-elements/docs/searchbar.html
 
 parallax-scroll :
+
