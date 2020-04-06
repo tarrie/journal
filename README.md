@@ -560,3 +560,7 @@ Set up react native.
 
 parallax-scroll :
 
+# 4.6.20
+
+Got two endpoints up and running. Have the domain api.tarrie.io working as well. 
+Finish create group event b4 front end?
