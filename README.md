@@ -562,5 +562,7 @@ parallax-scroll :
 
 # 4.6.20
 
-Got two endpoints up and running. Have the domain api.tarrie.io working as well. 
-Finish create group event b4 front end?
+- Got two endpoints up and running with ElasticBeanStalk, AWS Route 53. Have the domain api.tarrie.io working as well. 
+- Finish create group event next time around for api.
+-  could not annotate multipart form errors w/ tomcat so leavig that for another day
+- Spent some time reorganizing front end and made group context doesnt work tho
