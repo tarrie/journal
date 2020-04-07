@@ -569,3 +569,5 @@ parallax-scroll :
 
 # 4.7.20
 - hooked up api to front end but only two methods getEvents, and uploadImg. Need to create end point to get the group, also need to change getEvents probs delete and use Dynamodb streams
+- Next up: Use streams, lambda, sns to enable realtime shit -> https://aws.amazon.com/blogs/database/dynamodb-streams-use-cases-and-design-patterns/
+    - node js sns
