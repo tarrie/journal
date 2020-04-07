@@ -572,3 +572,4 @@ parallax-scroll :
 - Next up: Use streams, lambda, sns to enable realtime shit -> https://aws.amazon.com/blogs/database/dynamodb-streams-use-cases-and-design-patterns/
     - node js sns
     - https://docs.aws.amazon.com/appsync/latest/devguide/real-time-data.html. better i think uses websocket
+    - https://www.youtube.com/watch?v=olAPj6EIlag
