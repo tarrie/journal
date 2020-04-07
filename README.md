@@ -573,3 +573,6 @@ parallax-scroll :
     - node js sns
     - https://docs.aws.amazon.com/appsync/latest/devguide/real-time-data.html. better i think uses websocket
     - https://www.youtube.com/watch?v=olAPj6EIlag
+    - following this tutorial for react native appsync dowloaded sample project but getting sleepy
+        - https://docs.aws.amazon.com/appsync/latest/devguide/quickstart-write-queries.html 
+	going to take some time but worth it cuz graphql gives a flexible api
