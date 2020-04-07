@@ -566,3 +566,6 @@ parallax-scroll :
 - Finish create group event next time around for api.
 -  could not annotate multipart form errors w/ tomcat so leavig that for another day
 - Spent some time reorganizing front end and made group context doesnt work tho
+
+# 4.7.20
+- hooked up api to front end but only two methods getEvents, and uploadImg. Need to create end point to get the group, also need to change getEvents probs delete and use Dynamodb streams
