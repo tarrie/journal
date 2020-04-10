@@ -576,3 +576,36 @@ parallax-scroll :
     - following this tutorial for react native appsync dowloaded sample project but getting sleepy
         - https://docs.aws.amazon.com/appsync/latest/devguide/quickstart-write-queries.html 
 	going to take some time but worth it cuz graphql gives a flexible api
+
+# 4.9.20
+### GRAPH QL
+
+#### Resolvers
+	connect the fields in a type’s schema to a data source. Resolvers are the mechanism by which requests are fulfilled
+	
+#### Schema's
+Any field that ends w/ a exclamation point !, is a required fied. `ID!` is a unique type that can be either 
+**Root Types**: Query, Mutation, and Subscription, these types similar to the ones you define, but they’re different in that you expose them from your schema as the entry point for your API.
+
+*Subscriptions* invoked as a response to a mutation. -> https://docs.aws.amazon.com/appsync/latest/devguide/real-time-data.html#aws-appsync-real-time-data	`
+
+query HeroComparison($first: Int = 3) {
+  leftComparison: hero(episode: EMPIRE) {
+    ...comparisonFields
+  }
+  rightComparison: hero(episode: JEDI) {
+    ...comparisonFields
+  }
+}
+
+fragment comparisonFields on Character {
+  name
+  friendsConnection(first: $first) {
+    totalCount
+    edges {
+      node {
+        name
+      }
+    }
+  }
+}
