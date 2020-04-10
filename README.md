@@ -590,3 +590,4 @@ Any field that ends w/ a exclamation point !, is a required fied. `ID!` scalar t
 
 *Subscriptions* invoked as a response to a mutation. -> https://docs.aws.amazon.com/appsync/latest/devguide/real-time-data.html#aws-appsync-real-time-data	`
 
+- Dynamidb resolver - https://docs.aws.amazon.com/appsync/latest/devguide/tutorial-dynamodb-resolvers.html
