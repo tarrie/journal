@@ -584,7 +584,8 @@ parallax-scroll :
 	connect the fields in a type’s schema to a data source. Resolvers are the mechanism by which requests are fulfilled
 	
 #### Schema's
-Any field that ends w/ a exclamation point !, is a required fied. `ID!` is a unique type that can be either 
+Any field that ends w/ a exclamation point !, is a required fied. `ID!` is a unique type that can be either String or int 
+
 **Root Types**: Query, Mutation, and Subscription, these types similar to the ones you define, but they’re different in that you expose them from your schema as the entry point for your API.
 
 *Subscriptions* invoked as a response to a mutation. -> https://docs.aws.amazon.com/appsync/latest/devguide/real-time-data.html#aws-appsync-real-time-data	`
