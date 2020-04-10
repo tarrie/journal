@@ -589,23 +589,3 @@ Any field that ends w/ a exclamation point !, is a required fied. `ID!` is a uni
 
 *Subscriptions* invoked as a response to a mutation. -> https://docs.aws.amazon.com/appsync/latest/devguide/real-time-data.html#aws-appsync-real-time-data	`
 
-query HeroComparison($first: Int = 3) {
-  leftComparison: hero(episode: EMPIRE) {
-    ...comparisonFields
-  }
-  rightComparison: hero(episode: JEDI) {
-    ...comparisonFields
-  }
-}
-
-fragment comparisonFields on Character {
-  name
-  friendsConnection(first: $first) {
-    totalCount
-    edges {
-      node {
-        name
-      }
-    }
-  }
-}
