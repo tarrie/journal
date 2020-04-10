@@ -584,7 +584,7 @@ parallax-scroll :
 	connect the fields in a type’s schema to a data source. Resolvers are the mechanism by which requests are fulfilled
 	
 #### Schema's
-Any field that ends w/ a exclamation point !, is a required fied. `ID!` is a unique type that can be either String or int 
+Any field that ends w/ a exclamation point !, is a required fied. `ID!` scalar type is a unique identifier that can be either String or Int. 
 
 **Root Types**: Query, Mutation, and Subscription, these types similar to the ones you define, but they’re different in that you expose them from your schema as the entry point for your API.
 
