@@ -592,3 +592,6 @@ Any field that ends w/ a exclamation point !, is a required fied. `ID!` scalar t
 
 - Dynamidb resolver - https://docs.aws.amazon.com/appsync/latest/devguide/tutorial-dynamodb-resolvers.html
 - What it means by filter - https://medium.com/open-graphql/implementing-search-in-graphql-11d5f71f179
+
+# 4.10.20
+https://github.com/aws-samples/aws-mobile-appsync-events-starter-react
