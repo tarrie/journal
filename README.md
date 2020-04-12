@@ -629,3 +629,4 @@ holy crap you can just copy and paste html to email and it will just work:
     <span style="color:#800000; font-weight:bold; ">print</span><span style="color:#808030; ">(</span>x<span style="color:#808030; ">)</span>
 </pre>
 
+paperless uses. RTF tho
