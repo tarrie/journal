@@ -633,3 +633,6 @@ paperless uses. RTF tho
 
 https://superuser.com/questions/912712/how-to-send-rich-text-to-the-clipboard-from-command-line
 https://stackoverflow.com/questions/23934656/javascript-copy-rich-text-contents-to-clipboard
+
+
+cool but dunno how https://gfycat.com/fantasticsorrowfulintermediateegret
