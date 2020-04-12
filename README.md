@@ -614,3 +614,5 @@ good calandar - https://uimovement.com/design/erenovate-pro/
 https://pageflows.com/user-flow/creating-things/mobile/
 
 in create event blank out button until required shit is form
+
+replace search with just sthe search icon- use calendar
