@@ -612,3 +612,5 @@ interesting way to get multiple functions - https://uimovement.com/design/add-it
 good calandar - https://uimovement.com/design/erenovate-pro/
 
 https://pageflows.com/user-flow/creating-things/mobile/
+
+in create event blank out button until required shit is form
