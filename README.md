@@ -598,3 +598,5 @@ https://github.com/aws-samples/aws-mobile-appsync-events-starter-react
 
 # 4.11.20
 - Changed api so img is uploaded first and then the user/event/group created with the imgPath inputted as a pointer. Need to reflect this change in API later
+
+- use the green button as a next button expand it slightly to be the completion button.
