@@ -616,3 +616,6 @@ https://pageflows.com/user-flow/creating-things/mobile/
 in create event blank out button until required shit is form
 
 replace search with just sthe search icon- use calendar
+
+
+- interesting policies - https://paperlesspost.zendesk.com/hc/en-us/articles/206609773-Setting-up-the-number-invited
