@@ -630,3 +630,5 @@ holy crap you can just copy and paste html to email and it will just work:
 </pre>
 
 paperless uses. RTF tho
+
+https://superuser.com/questions/912712/how-to-send-rich-text-to-the-clipboard-from-command-line
