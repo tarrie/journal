@@ -599,4 +599,16 @@ https://github.com/aws-samples/aws-mobile-appsync-events-starter-react
 # 4.11.20
 - Changed api so img is uploaded first and then the user/event/group created with the imgPath inputted as a pointer. Need to reflect this change in API later
 
-- use the green button as a next button expand it slightly to be the completion button.
+- use the green button as a next button expand it slightly to be the completion button. 
+    - https://dribbble.com/shots/2352159-Daily-UI-Day-23-Onboarding
+- later condense the events and use https://dribbble.com/shots/2406343-Daily-UI-Day-36-Special-Offer to expand
+
+interesting id for cal - https://dribbble.com/shots/2414647-Daily-UI-Day-38-Calendar
+
+-- copy this exactly for contacts - https://uimovement.com/design/3d-touch-concept-interaction/
+- copy maybe exactly for expanded view of event https://uimovement.com/design/space-needle-1/
+
+interesting way to get multiple functions - https://uimovement.com/design/add-item-dynamic/
+good calandar - https://uimovement.com/design/erenovate-pro/
+
+https://pageflows.com/user-flow/creating-things/mobile/
