@@ -621,3 +621,11 @@ replace search with just sthe search icon- use calendar
 - interesting policies - https://paperlesspost.zendesk.com/hc/en-us/articles/206609773-Setting-up-the-number-invited
 
 next: add guest
+
+
+holy crap you can just copy and paste html to email and it will just work: 
+
+<pre style="color:#000000;background:#ffffff;"><span style="color:#800000; font-weight:bold; ">def</span> you<span style="color:#808030; ">(</span>x<span style="color:#808030; ">)</span><span style="color:#808030; ">:</span>
+    <span style="color:#800000; font-weight:bold; ">print</span><span style="color:#808030; ">(</span>x<span style="color:#808030; ">)</span>
+</pre>
+
