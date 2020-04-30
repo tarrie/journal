@@ -636,3 +636,7 @@ https://stackoverflow.com/questions/23934656/javascript-copy-rich-text-contents-
 
 
 cool but dunno how https://gfycat.com/fantasticsorrowfulintermediateegret
+
+# 4/30/18
+
+online experiences. So both virtual and physical. Cooking class, pottery, etc ... but need zoom integration. Nice. 
