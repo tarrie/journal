@@ -649,7 +649,7 @@ Virtual concerts are meaningless, but virtual events that are more specialized a
 - New emphasis on traveling locally not big globe trotting
 - travel smaller, more localized, intimate, more human connections.
 
-- flag system w/ ratings and reviews everything will sort itself out.
+- flag system w/ ratings and reviews everything will sort itself out. 
 
 
 “Tarrie is a platform that seemlessly merges the virtual and the phyical world. It provides more localized direct connections  bringing communities together, in an intemate and safe environment" 
@@ -657,3 +657,5 @@ Virtual concerts are meaningless, but virtual events that are more specialized a
 "Allows host of events to earn money and set prices, produces high quality afforable unqiue experiences"
 
 "Discover what's happening in ur community"
+
+** definately put as priority integration with zoom**
