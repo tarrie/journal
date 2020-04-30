@@ -646,4 +646,5 @@ I don’t think theirs an app that merges the virtual w/ the physical. Their a b
 Virtual concerts are meaningless, but virtual events that are more specialized and local to the physical community us are a part of I think have more value
 
 - New emphasis on affordable travel and affordable events -- so events prices set by owner. 
+- New emphasis on traveling locally not big globe trotting
 - travel smaller, more localized, intimate, more human connections.
