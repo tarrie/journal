@@ -648,3 +648,5 @@ Virtual concerts are meaningless, but virtual events that are more specialized a
 - New emphasis on affordable travel and affordable events -- so events prices set by owner. 
 - New emphasis on traveling locally not big globe trotting
 - travel smaller, more localized, intimate, more human connections.
+
+- flag system w/ ratings and reviews everything will sort itself out.
