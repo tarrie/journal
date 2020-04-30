@@ -640,3 +640,7 @@ cool but dunno how https://gfycat.com/fantasticsorrowfulintermediateegret
 # 4/30/18
 
 online experiences. So both virtual and physical. Cooking class, pottery, etc ... but need zoom integration. Nice. 
+
+So I was watching AirBnb ceo talk and he was talking about how their virtual experience are their highest growth product. So like Airbnb came out in 2008 people were concerned about $, so they sold space in their home as a way to get revenue. This crisis can’t do that because of health concerns but people are going to want to connect. So if can make Tarrie more aligned to the new virtual world I think that’s an advantage. Like maybe some zoom integration, so people can find and host cooking classes, or meditation classes
+I don’t think theirs an app that merges the virtual w/ the physical. Their a blend it’s not one or the other at least after the Covid there won’t be
+Virtual concerts are meaningless, but virtual events that are more specialized and local to the physical community us are a part of I think have more value
