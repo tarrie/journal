@@ -660,3 +660,13 @@ Virtual concerts are meaningless, but virtual events that are more specialized a
 
 ** definately put as priority integration with zoom**
 or Twilio
+
+# 05/02/20
+- Refactored the options on CreateEvent so that easily add more functionality
+- Partially implemented zoom virtual event, and location
+- Right now working on auto complete. Tried using a github package but it was too buggy. Now using TextInput + Flatlist, what's left is 
+    - styling the input in list view
+    - make selected item into toucheable opacity -> transform to something usable.
+    - Maybe integrate the actual maps api to show the location on the map later step not useful rt
+    - rest API more expensive than node/java sdk so switch -- later step not useful rt
+    - So next time styling + integrate w/ places api + if get to it {route} to previous page with address inputted. Also find out how to use address think this is an additional API or integrate w/ google/yahoo maps or something. But we need to know how to use it. 
