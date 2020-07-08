@@ -670,3 +670,7 @@ or Twilio
     - Maybe integrate the actual maps api to show the location on the map later step not useful rt
     - rest API more expensive than node/java sdk so switch -- later step not useful rt
     - So next time styling + integrate w/ places api + if get to it {route} to previous page with address inputted. Also find out how to use address think this is an additional API or integrate w/ google/yahoo maps or something. But we need to know how to use it. 
+# 07/07/2020
+Finshed styling input in list view
+Tried implemnting autocomplete but used nodejs, small type says use the javascript maps plugin. So need to uninstall the nodejs maps
+- Also when the font is missing could be a sign of needing to run `yarn install`
