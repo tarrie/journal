@@ -674,3 +674,10 @@ or Twilio
 Finshed styling input in list view
 Tried implemnting autocomplete but used nodejs, small type says use the javascript maps plugin. So need to uninstall the nodejs maps
 - Also when the font is missing could be a sign of needing to run `yarn install`
+# 07/08/2020
+- Finished integrating goodle API also added sessionToken helps with cost
+    - Added routing back to main page on selection of text or selection of location, 
+    
+***Need to do***
+- so `CreateEventHome` takes in route.params.location now, location is missing the formatted address so cant immediately use the exported component `ActualLocation` because need to generate `main_text` and `secondary_text'.
+    - Fix:  then name=main_text and secondary_text=formatted_address. See with this change can we use refactor of `ActualLocation` to replace Location info of `CreateEventHome` screen.
