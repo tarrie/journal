@@ -689,3 +689,4 @@ https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJlZgEvinRD4g
 # 07/09/2020
 - Functionality of location is done including the refactoring of `ActualLocation` :). Just general styling
 - I think the most interesting thing would be to add virtual events so i'll start figuring that out now
+- https://docs.expo.io/versions/latest/sdk/contacts/ also merge w/ apps existing contacts. Complicated :(
