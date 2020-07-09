@@ -681,3 +681,7 @@ Tried implemnting autocomplete but used nodejs, small type says use the javascri
 ***Need to do***
 - so `CreateEventHome` takes in route.params.location now, location is missing the formatted address so cant immediately use the exported component `ActualLocation` because need to generate `main_text` and `secondary_text'.
     - Fix:  then name=main_text and secondary_text=formatted_address. See with this change can we use refactor of `ActualLocation` to replace Location info of `CreateEventHome` screen.
+    
+    https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJG3r5S0kVkFQR5G-wILFJDRA&key=[insert key]&language=en&fields=name,address_component,adr_address,formatted_address,geometry,url,photo,vicinity
+
+https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJlZgEvinRD4gRiVAci0pwvB8&key=[insert key]&language=en&fields=name,address_component,adr_address,formatted_address,geometry,url,photo,vicinity
