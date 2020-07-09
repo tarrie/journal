@@ -685,3 +685,7 @@ Tried implemnting autocomplete but used nodejs, small type says use the javascri
     https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJG3r5S0kVkFQR5G-wILFJDRA&key=[insert key]&language=en&fields=name,address_component,adr_address,formatted_address,geometry,url,photo,vicinity
 
 https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJlZgEvinRD4gRiVAci0pwvB8&key=[insert key]&language=en&fields=name,address_component,adr_address,formatted_address,geometry,url,photo,vicinity
+
+# 07/08/2020
+- Functionality of location is done including the refactoring of `ActualLocation` :). Just general styling
+- I think the most interesting thing would be to add virtual events so i'll start figuring that out now
