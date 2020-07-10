@@ -705,3 +705,7 @@ https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJlZgEvinRD4g
     - $0.0017 per attendee regardless of medium
 
 Meh. I think just whats on the ipad. So just a login sequence for zoom, and the ability to create a meeting room. So need to see if we can schedule a meeting. However zoom scheduling needs a date (and other stuff - check macbook), so we need to create a meeting on behalf of client using info provided by user when filling in the schedule. SEEMS LIKE A SLOG THROUG https://marketplace.zoom.us/docs/api-reference/zoom-api/rooms/addaroom ZOOM API,. oh well handle later
+
+# 07/10/2020
+- Focus is on "description" "cohost" and "hashtags"
+- UI https://medium.com/@ryanhalperin/ui-ux-case-study-re-designing-how-instagram-displays-hashtags-within-user-content-bc111d92bd1e
