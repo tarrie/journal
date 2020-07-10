@@ -690,3 +690,18 @@ https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJlZgEvinRD4g
 - Functionality of location is done including the refactoring of `ActualLocation` :). Just general styling
 - I think the most interesting thing would be to add virtual events so i'll start figuring that out now
 - https://docs.expo.io/versions/latest/sdk/contacts/ also merge w/ apps existing contacts. Complicated :(
+
+#### Video Chat Service Providers
+- Twilio
+    - https://github.com/blackuy/react-native-twilio-video-webrtc
+- quickblox - react native sdk exists
+    - https://quickblox.com/pricing/
+    - pricing per a user, stops getting feasible at 5k. 100 conncurrent connections seems iffy but pricing seems fair
+- agora - react native tutorial exist but chinese could run into problems
+    - 10k free minutes every month
+    - $0.00399/minute
+- aws chime - react native tutorial exists 
+    - Basic features are free to use and you can use them for as long as you want. These features include chat, Chime to Chime voice calls, and attending meetings. You can register for a free account and then upgrade that account to Amazon Chime Pro or add other pay-as-you-go features like Business Calling.
+    - $0.0017 per attendee regardless of medium
+
+Meh. I think just whats on the ipad. So just a login sequence for zoom, and the ability to create a meeting room. So need to see if we can schedule a meeting. However zoom scheduling needs a date (and other stuff - check macbook), so we need to create a meeting on behalf of client using info provided by user when filling in the schedule. SEEMS LIKE A SLOG THROUG https://marketplace.zoom.us/docs/api-reference/zoom-api/rooms/addaroom ZOOM API,. oh well handle later
