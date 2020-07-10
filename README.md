@@ -710,3 +710,4 @@ Meh. I think just whats on the ipad. So just a login sequence for zoom, and the 
 - Focus is on "description" "cohost" and "hashtags"
 - UI https://medium.com/@ryanhalperin/ui-ux-case-study-re-designing-how-instagram-displays-hashtags-within-user-content-bc111d92bd1e
 - split logical parts into sections like fb events
+- create group event from fb has nice UI also
