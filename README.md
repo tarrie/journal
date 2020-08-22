@@ -712,3 +712,7 @@ Meh. I think just whats on the ipad. So just a login sequence for zoom, and the 
 - split logical parts into sections like fb events
 - create group event from fb has nice UI also
 - Added Boilerplate code for HashTags, finished add info.
+
+# 08/21/2020
+- Spent 3hr figuring out why my routes werent passing to CreateEventHome. Forgot to use the CreateEventNavigator as the screen went directly to CreateEventHome. Also to pass params through a Navigator don't need context need :https://stackoverflow.com/a/61262356/13655034 . So createeventcontext is useless not even used. 
+- Going to hold off on UI and try to get the basic event creation flow working including java api. Replace trashcan in top right corner with "done" 
