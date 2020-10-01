@@ -725,25 +725,10 @@ Meh. I think just whats on the ipad. So just a login sequence for zoom, and the 
     - expressionNames are subsituted with the `#` prefix, as keys
     - expressionValues are substituted in for values with the `:` prefix
     
-```{
-    "version" : "2017-02-28",
-    "operation" : "UpdateItem",
-    "key" : {
-        "id" : $util.dynamodb.toDynamoDBJson($context.arguments.id)
-    },
-    "update" : {
-        "expression" : "SET author = :author, title = :title, content = :content, #url = :url ADD version :one",
-        "expressionNames": {
-            "#url" : "url"
-        },
-        "expressionValues": {
-            ":author" : $util.dynamodb.toDynamoDBJson($context.arguments.author),
-            ":title" : $util.dynamodb.toDynamoDBJson($context.arguments.title),
-            ":content" : $util.dynamodb.toDynamoDBJson($context.arguments.content),
-            ":url" : $util.dynamodb.toDynamoDBJson($context.arguments.url),
-            ":one" : { "N": 1 }
-        }
-    }
-}```
 
-- Need to covert send invites and hastags to AppSync as well but thats too much for now, now that we have the rest endpoint verifying graphql input we can move on to websockets with appsync
+- Need to covert send invites and hastags to AppSync as well but thats too much for now, **now that we have the rest endpoint verifying graphql input we can move on to websockets with appsync**
+- Added a basic subscription in GroupHome in the front end and it works! Finally. So next clean up the server I put infront of graphql endpoint, then probably add a endpoint to actually get events, probably want to go ahead and add the global secondary index to dynAMO, a bit more testing to server, then put the logic of viewing all the events live, and creating a event and it appearing on iphone immediately. 
+- Also there are some options in AWS app sync that i notice might be in https://dev.to/johanneskonings/aws-amplify-api-graphql-subscription-440d like caching
+    - might be useful https://aws.amazon.com/appsync/resources/
+    
+Figuring out the java bug was crazy hard just code monkeyd it trying all combo's and really combing through differences till i figured it out. no documentation. Good tho cuz i want verfication (atleast most of it in server) and don't want app sync really exposed except through subscriptions. this is prob the most work ive done in a while almost a break through
