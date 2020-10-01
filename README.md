@@ -725,7 +725,7 @@ Meh. I think just whats on the ipad. So just a login sequence for zoom, and the 
     - expressionNames are subsituted with the `#` prefix, as keys
     - expressionValues are substituted in for values with the `:` prefix
     
-``{
+```{
     "version" : "2017-02-28",
     "operation" : "UpdateItem",
     "key" : {
@@ -744,7 +744,6 @@ Meh. I think just whats on the ipad. So just a login sequence for zoom, and the 
             ":one" : { "N": 1 }
         }
     }
-}``
+}```
 
-
-Need to covert send invites and hastags to AppSync as well but thats too much for now, now that we have the rest endpoint verifying graphql input we can move on to websockets with appsync
+- Need to covert send invites and hastags to AppSync as well but thats too much for now, now that we have the rest endpoint verifying graphql input we can move on to websockets with appsync
