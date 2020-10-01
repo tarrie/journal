@@ -745,3 +745,6 @@ Meh. I think just whats on the ipad. So just a login sequence for zoom, and the 
         }
     }
 }```
+
+
+Need to covert send invites and hastags to AppSync as well but thats too much for now, now that we have the rest endpoint verifying graphql input we can move on to websockets with appsync
