@@ -717,3 +717,6 @@ Meh. I think just whats on the ipad. So just a login sequence for zoom, and the 
 - Spent 3hr figuring out why my routes werent passing to CreateEventHome. Forgot to use the CreateEventNavigator as the screen went directly to CreateEventHome. Also to pass params through a Navigator don't need context need :https://stackoverflow.com/a/61262356/13655034 . So createeventcontext is useless not even used. 
 - Going to hold off on UI and try to get the basic event creation flow working including java api. Replace trashcan in top right corner with "done" 
 - Left off with GroupContext and UserContext added in CreateEventHome need to use this for the finisher
+
+#9/30/2020
+- Implemented GraphQL for create event. Excluding EventPrivacy because that shit wont come until this is more developed
