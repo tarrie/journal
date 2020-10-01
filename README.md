@@ -721,3 +721,27 @@ Meh. I think just whats on the ipad. So just a login sequence for zoom, and the 
 # 9/30/2020
 - Implemented GraphQL for create event. Excluding EventPrivacy because that shit wont come until this is more developed
 - Have to implement updateItem but rt too complicated. fuck
+    - Actually not that complicated: https://docs.aws.amazon.com/appsync/latest/devguide/tutorial-dynamodb-resolvers.html
+    - expressionNames are subsituted with the `#` prefix, as keys
+    - expressionValues are substituted in for values with the `:` prefix
+    
+```{
+    "version" : "2017-02-28",
+    "operation" : "UpdateItem",
+    "key" : {
+        "id" : $util.dynamodb.toDynamoDBJson($context.arguments.id)
+    },
+    "update" : {
+        "expression" : "SET author = :author, title = :title, content = :content, #url = :url ADD version :one",
+        "expressionNames": {
+            "#url" : "url"
+        },
+        "expressionValues": {
+            ":author" : $util.dynamodb.toDynamoDBJson($context.arguments.author),
+            ":title" : $util.dynamodb.toDynamoDBJson($context.arguments.title),
+            ":content" : $util.dynamodb.toDynamoDBJson($context.arguments.content),
+            ":url" : $util.dynamodb.toDynamoDBJson($context.arguments.url),
+            ":one" : { "N": 1 }
+        }
+    }
+}```
