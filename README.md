@@ -718,5 +718,5 @@ Meh. I think just whats on the ipad. So just a login sequence for zoom, and the 
 - Going to hold off on UI and try to get the basic event creation flow working including java api. Replace trashcan in top right corner with "done" 
 - Left off with GroupContext and UserContext added in CreateEventHome need to use this for the finisher
 
-#9/30/2020
+# 9/30/2020
 - Implemented GraphQL for create event. Excluding EventPrivacy because that shit wont come until this is more developed
