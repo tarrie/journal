@@ -720,3 +720,4 @@ Meh. I think just whats on the ipad. So just a login sequence for zoom, and the 
 
 # 9/30/2020
 - Implemented GraphQL for create event. Excluding EventPrivacy because that shit wont come until this is more developed
+- Have to implement updateItem but rt too complicated. fuck
