@@ -734,3 +734,6 @@ Meh. I think just whats on the ipad. So just a login sequence for zoom, and the 
 Figuring out the java bug was crazy hard just code monkeyd it trying all combo's and really combing through differences till i figured it out. no documentation. Good tho cuz i want verfication (atleast most of it in server) and don't want app sync really exposed except through subscriptions. this is prob the most work ive done in a while almost a break through
 
 remember goal is still to create a event first then upload photo to event, then according to user event is created. 
+
+# 10/1/20
+Trying to create graphql endpoints to list events and edit events
