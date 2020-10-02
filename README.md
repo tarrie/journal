@@ -748,3 +748,6 @@ Edit is actually complicates
 To notify everyone that the event has changed. 
 
 Or when a user logs in they can check whats under their account, and then references the ground truth to update the information. Lazy. Then set subscption on events. 
+
+
+`Refactored grapgql schema, created editHostedEvent and editEvent, added these methods to TarrieAppSync, however didnt create the api endpoint or test the graphql endpoints we just created. Notice that subscription are multiple now. Also implemented change in schema as stated above make it. easier to subscribe`
