@@ -739,3 +739,4 @@ remember goal is still to create a event first then upload photo to event, then 
 Trying to create graphql endpoints to list events and edit events
 
 - Already had a listevent endpoint working, so added a test to make sure it worked. 
+- Created GSI that just reverses pk and sk, the projected fields are pk, sk, data
