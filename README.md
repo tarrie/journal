@@ -740,3 +740,11 @@ Trying to create graphql endpoints to list events and edit events
 
 - Already had a listevent endpoint working, so added a test to make sure it worked. 
 - Created GSI that just reverses pk and sk, the projected fields are pk, sk, data
+
+Edit is actually complicates
+1. Edit the main event through graphql
+2. Then use GSI-2 to on prefx HOST, SAVED, RSVP. To find all users/groups that are hosting, saved, or rsvp to event, then increment `timeLastChanged` for all of these. This edit will allow all the users/groups to know that the event has changed. All they have to do is subscribe to their own ID. The ground truth is now stored only in the event. We can actually make timeLastChanged = data
+
+To notify everyone that the event has changed. 
+
+Or when a user logs in they can check whats under their account, and then references the ground truth to update the information. Lazy. Then set subscption on events. 
