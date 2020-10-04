@@ -755,3 +755,4 @@ Or when a user logs in they can check whats under their account, and then refere
 # 10.3.20
 
 Trouble with reslover, fix used `util.dynamodb.toDynamoDB` instead of `util.dynamodb.toDynamoDBJson`
+ISO DATETIME FORMAT: https://www.cryptosys.net/pki/manpki/pki_iso8601datetime.html
