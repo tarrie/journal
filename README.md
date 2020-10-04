@@ -5,7 +5,7 @@ journal for jessie
 - [Code](https://github.com/tarrie/io.tarrie.api)
     - [Current Branch in this pull req](https://github.com/tarrie/io.tarrie.api/pull/1)
 
-# 12/14/14
+# 12/14/19
 
 - Created a AWS account, the domain tarrie.io is available via AWS Route 53 thank the lord! However its $40 bucks should I pay for it? 
 - Converted RAML to Swagger very easy to do. The API I created before is close to complete but missing details on authentication so I'll spend my time filling those in- here comes AWS Cognito!
@@ -19,7 +19,7 @@ journal for jessie
     - Finished. so got the java server env set up so things should be fast. btw mvn is surpsingly annoying. found out how to define datamodels for swagger to! use this link tommorow now the api generation will be semantic https://www.vojtechruzicka.com/documenting-spring-boot-rest-api-swagger-springfox/
         - TOMMORROW: GET api for group membership going, use AMAZON CLI TO add group membership to the payload of jwt token. honestly not sure this matter that much but i guess if people really want their groups to be secure. whatever. 
        
-# 12/15/14
+# 12/15/19
 - Found good documentation for making API model 
     - https://jakubstas.com/spring-jersey-swagger-create-documentation/#.XfagyNZKjBI
     - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-general-nosql-design.html
@@ -751,3 +751,7 @@ Or when a user logs in they can check whats under their account, and then refere
 
 
 `Refactored grapgql schema, created editHostedEvent and editEvent, added these methods to TarrieAppSync, however didnt create the api endpoint or test the graphql endpoints we just created. Notice that subscription are multiple now. Also implemented change in schema as stated above make it. easier to subscribe`
+
+# 10.3.20
+
+Trouble with reslover, fix used `util.dynamodb.toDynamoDB` instead of `util.dynamodb.toDynamoDBJson`
