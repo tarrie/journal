@@ -756,3 +756,12 @@ Or when a user logs in they can check whats under their account, and then refere
 
 Trouble with reslover, fix used `util.dynamodb.toDynamoDB` instead of `util.dynamodb.toDynamoDBJson`
 ISO DATETIME FORMAT: https://www.cryptosys.net/pki/manpki/pki_iso8601datetime.html
+
+Create 3 new functions `getAllEventRelationshipForEvent`, `_sendEventRelationshipUpdate`, `editEvent`:
+- The end point under the path is basically set up no worries on that
+
+A thing of note, MUST verifiy that a entitiy only has one type of relationship with a event. How to enforce or does it matter? Problem is that `_sendEventRelationshipUpdate` will send multiple updates to somone if it has more than one relationship. Logically it should only have one as well. how to enforce?
+
+So `getAllEventRelationshipForEvent` uses the GSI next time need to make a test make sure it actually outputs shit and to see what it outputs. This means the fake db table needs to have a GSI. Afterthis is should be straight forward to actually implment the the endpoint. Also now we can actually create an event  with 3? api calls. One call to create event, one call to create img, another to editevent. *But we could make this into two api calls by making it mandatory to have a entity Id associated with the img, which i think is already the case*. After this setup subscriptions . After that probs fix the dummy data in GroupHome to have real date. 
+
+
