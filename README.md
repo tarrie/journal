@@ -764,4 +764,8 @@ A thing of note, MUST verifiy that a entitiy only has one type of relationship w
 
 So `getAllEventRelationshipForEvent` uses the GSI next time need to make a test make sure it actually outputs shit and to see what it outputs. This means the fake db table needs to have a GSI. Afterthis is should be straight forward to actually implment the the endpoint. Also now we can actually create an event  with 3? api calls. One call to create event, one call to create img, another to editevent. *But we could make this into two api calls by making it mandatory to have a entity Id associated with the img, which i think is already the case*. After this setup subscriptions . After that probs fix the dummy data in GroupHome to have real date. 
 
+# 10.4.20
 
+TO write to a gsi mostly had it correct but have to add a annotation for the GSI sort and range key, and set consisten reads to false --> https://stackoverflow.com/questions/30457820/how-to-query-a-dynamo-db-having-a-gsi-with-only-hashkeys-using-dynamodbmapper
+
+Also when I used the JSON mapper, not the actual keys put in as input to the api must match whateer the annoation says. For instance `Event` has a `id` field, but if i put a json with `id: EVT#xyx` api wont pick it up rather it needs to be `main_pk: EVT#xyz`
