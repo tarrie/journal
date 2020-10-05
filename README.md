@@ -772,6 +772,14 @@ Also when I used the JSON mapper, not the actual keys put in as input to the api
 
 React Native (Run the server and change the endppint to localhost to run)
 - [X] Added API menthods `GraphQLApi::subscribeToEvents()` and `GraphQLApi::subscribeToEventRelationship()` to react native
-- [ ] Added API method to create a event in fulllll. For React
-- [ ] Use it to create Event
+- [X] Added API method to create a event in fulllll. For React & use it to create event
+    - [ ] Make sure it actually works
 - [ ] Use subscription to automatically pull new events
+
+# 10.5.29
+- [X] Added API method to create a event in fulllll. For React & use it to create event
+    - [ ] Make sure it actually works
+    - [ ] Need some more enforecment on create/edit of event. starttime <= endtime, all day how to do, default parameters like the default picture, etc
+- [ ] Use subscription to automatically pull new events
+- [ ] Start working on how represent a list of events
+
