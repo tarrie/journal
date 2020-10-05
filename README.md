@@ -776,6 +776,7 @@ React Native (Run the server and change the endppint to localhost to run)
     - [ ] Make sure it actually works
 - [ ] Use subscription to automatically pull new events
 
+This is a pretty big piece don't want to lose progress created new branch to handle this: `createAndSubscribeToEvents`
 # 10.5.29
 - [X] Added API method to create a event in fulllll. For React & use it to create event
     - [ ] Make sure it actually works
