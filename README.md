@@ -769,3 +769,9 @@ So `getAllEventRelationshipForEvent` uses the GSI next time need to make a test 
 TO write to a gsi mostly had it correct but have to add a annotation for the GSI sort and range key, and set consisten reads to false --> https://stackoverflow.com/questions/30457820/how-to-query-a-dynamo-db-having-a-gsi-with-only-hashkeys-using-dynamodbmapper
 
 Also when I used the JSON mapper, not the actual keys put in as input to the api must match whateer the annoation says. For instance `Event` has a `id` field, but if i put a json with `id: EVT#xyx` api wont pick it up rather it needs to be `main_pk: EVT#xyz`
+
+React Native (Run the server and change the endppint to localhost to run)
+[x] Added API menthods `GraphQLApi::subscribeToEvents()` and `GraphQLApi::subscribeToEventRelationship()` to react native
+[] Added API method to create a event in fulllll. For React
+[] Use it to create Event
+[]Use subscription to automatically pull new events
