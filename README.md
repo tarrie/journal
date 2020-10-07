@@ -780,7 +780,7 @@ This is a pretty big piece don't want to lose progress created new branch to han
 # 10.5.29
 - So bottom navigation routs straight to a Group. Right now app is sort of fucked up but to access group must pass in route parameter `route.params.group` that has the loaded group info. `Group` then passes this info to `GroupNaviagtion`which has access to the GroupContext and so updates the groupstate with the parameter
 - https://medium.com/javascript-in-plain-english/type-checking-and-react-prop-types-f4b8cf41b4a2#:~:text=In%20React%20Native%20you%20can,are%20being%20passed%20into%20components.&text=The%20HelloWorld%20PropType%20is%20set,error%20or%20warning%20stating%20so.
-
+- graphql api key has to be refreshed every week unless get authorization error. 
 - [X] Added API method to create a event in fulllll. For React & use it to create event
     - [ ] Make sure it actually works
     - [ ] Need some more enforecment on create/edit of event. starttime <= endtime, all day how to do, default parameters like the default picture, etc
