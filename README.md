@@ -794,6 +794,8 @@ Tried implementing data store but failed: https://egghead.io/lessons/javascript-
 - revisist this later i guess
 Have to use encodeURIComponent() when dealing with entityId's in path parameter. 
 
+- [ ] Need some more enforecment on create/edit of event. starttime <= endtime, all day how to do, default parameters like the default picture, etc
 - [ ] Use subscription to automatically pull new events
-- [ ] Start working on how represent a list of events
-
+- [ ] Start working on how represent a list of events]
+    - [ ] Implement `Get event/{eventId}` API probably will need it
+- [ ] change grahql api to be with amplify somehow seems pretty powerfill with the data store. invesigate, don't need to implement but the knowledge will help make the design of the previous task optimal to incorporate in the future. 
