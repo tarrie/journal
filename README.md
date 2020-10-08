@@ -783,8 +783,17 @@ This is a pretty big piece don't want to lose progress created new branch to han
 - graphql api key has to be refreshed every week unless get authorization error. reated a new one expries on the 31st, by default they expire 7days after creation
 
 - [X] Added API method to create a event in fulllll. For React & use it to create event
-    - [ ] Make sure it actually works
+    - [x] Make sure it actually works
     - [ ] Need some more enforecment on create/edit of event. starttime <= endtime, all day how to do, default parameters like the default picture, etc
+- [ ] Use subscription to automatically pull new events
+- [ ] Start working on how represent a list of events
+
+# 10.8.20
+
+Tried implementing data store but failed: https://egghead.io/lessons/javascript-building-offline-first-cross-platform-apps-with-expo-and-amplify-datastore
+- revisist this later i guess
+Have to use encodeURIComponent() when dealing with entityId's in path parameter. 
+
 - [ ] Use subscription to automatically pull new events
 - [ ] Start working on how represent a list of events
 
