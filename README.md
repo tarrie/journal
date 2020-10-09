@@ -809,6 +809,7 @@ so its standardized so we dont have to update all relationships iff we copy the 
 - [x] Start working on how represent a list of events]
     - [x] Implement `Get event/{eventId}` API probably will need it
     - http://localhost:8080/events?eventId=EVT#123&eventId=EVT#2riw    payload = {main_pk: userId} 
+    
 **Next**
 - [ ] Need some more enforecment on create/edit of event. starttime <= endtime, all day how to do, default parameters like the default picture, etc
 - [ ] Use subscription to automatically pull new events
