@@ -798,4 +798,18 @@ Odd java conosle when uploading a figure -- is it because lazy loading? what's g
 - [ ] Use subscription to automatically pull new events
 - [ ] Start working on how represent a list of events]
     - [ ] Implement `Get event/{eventId}` API probably will need it
+
+
+10.9.20
+1. API slightyl subtle in how it store pictures it always under: `https://tarrie.io.s3.us-east-2.amazonaws.com/events/pictures/EVT%23-17904146509BmrGP/profile`
+so its standardized so we dont have to update all relationships iff we copy the default picture to the same endpoint... so change how it is currently. Either in the front end or backend. Backend would require 3 api calls. Create Event, upload default photo, upload new photo. The frontend would have the same amount of api calls
+2. Error that was just a copy paste typo took long time. Debugging verify variables r correct 1st
+
+**Finished**
+- [x] Start working on how represent a list of events]
+    - [x] Implement `Get event/{eventId}` API probably will need it
+**Next**
+- [ ] Need some more enforecment on create/edit of event. starttime <= endtime, all day how to do, default parameters like the default picture, etc
+- [ ] Use subscription to automatically pull new events
+- [ ] work on representing list of events in front end. 
 - [ ] change grahql api to be with amplify somehow seems pretty powerfill with the data store. invesigate, don't need to implement but the knowledge will help make the design of the previous task optimal to incorporate in the future. 
