@@ -815,3 +815,6 @@ so its standardized so we dont have to update all relationships iff we copy the 
 - [ ] Use subscription to automatically pull new events
 - [ ] work on representing list of events in front end. 
 - [ ] change grahql api to be with amplify somehow seems pretty powerfill with the data store. invesigate, don't need to implement but the knowledge will help make the design of the previous task optimal to incorporate in the future. 
+
+# 10.11.20
+- Yah so need to make a API call to get all events for a group. Actually this should be easy cuz the relationship is stored
