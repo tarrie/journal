@@ -818,3 +818,4 @@ so its standardized so we dont have to update all relationships iff we copy the 
 
 # 10.11.20
 - Yah so need to make a API call to get all events for a group. Actually this should be easy cuz the relationship is stored
+- [x] very tored pm;y added createvemt tp reavt
