@@ -818,4 +818,17 @@ so its standardized so we dont have to update all relationships iff we copy the 
 
 # 10.11.20
 - Yah so need to make a API call to get all events for a group. Actually this should be easy cuz the relationship is stored
-- [x] very tored pm;y added createvemt tp reavt
+- [x] very tired only added `getEvent` to react
+
+# 10.12.20
+Messing with time is so damn annoying. Api call was failing because server enforced constraint lol so had to spend all my time fixing it on the front end ohh well.
+- [x] Need some more enforecment on create/edit of event. starttime <= endtime. Also generalized API so can easily change timezone
+    - all day how to do, default parameters like the default picture, etc. Remember default picture should be moved to the default path for a event instead of somewhere else. 
+- [bug] the uuid i got was garbage just used short id + time stamp to millisecond. Should be coo
+    
+ **Next**
+- [ ] Need some more enforecment on create/edit of event. starttime <= endtime, all day how to do, default parameters like the default picture, etc
+- [ ] Use subscription to automatically pull new events
+- [ ] work on representing list of events in front end. 
+- [ ] change grahql api to be with amplify somehow seems pretty powerfill with the data store. invesigate, don't need to implement but the knowledge will help make the design of the previous task optimal to incorporate in the future. 
+
