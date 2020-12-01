@@ -832,3 +832,5 @@ Messing with time is so damn annoying. Api call was failing because server enfor
 - [ ] work on representing list of events in front end. 
 - [ ] change grahql api to be with amplify somehow seems pretty powerfill with the data store. invesigate, don't need to implement but the knowledge will help make the design of the previous task optimal to incorporate in the future. 
 
+# 11.30.20
+- Failing to launch api becasuse of failures in test. Figure this out tommorrow. Need to formalize the script in how to start up after being cold. grr
