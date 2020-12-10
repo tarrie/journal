@@ -834,3 +834,6 @@ Messing with time is so damn annoying. Api call was failing because server enfor
 
 # 11.30.20
 - Failing to launch api becasuse of failures in test. Figure this out tommorrow. Need to formalize the script in how to start up after being cold. grr
+
+# 12.9.20
+- in the proces sof updating expo/app to latest version
