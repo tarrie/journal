@@ -837,3 +837,7 @@ Messing with time is so damn annoying. Api call was failing because server enfor
 
 # 12.9.20
 - in the proces sof updating expo/app to latest version
+
+# 12.10.20
+- error iin GroupHome were i cant use ref and scrollTo
+Cannot read property 'getScrollResponder' of undefined ParallaxScrollView
