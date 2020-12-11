@@ -841,3 +841,4 @@ Messing with time is so damn annoying. Api call was failing because server enfor
 # 12.10.20
 - error iin GroupHome were i cant use ref and scrollTo
 Cannot read property 'getScrollResponder' of undefined ParallaxScrollView
+Fixed ^^ but useNativeDriver is messed up in Animated prob causing delay
