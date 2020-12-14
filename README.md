@@ -848,7 +848,7 @@ Fixed ^^ but useNativeDriver is messed up in Animated prob causing delay
 # 12.14.20
 (1) if you have f({a}) and `a` is optional then f() wont work you need f({})
 (2) to wait for a promise safest thing is to return the `.then` function. SO YOU CAn nest then, otherwise it might not wait. 
-
+problem child: https://github.com/tarrie/frontend/blob/createAndSubscribeToEvents/src/context/GroupContext/useGroup.js#L100
 These two facts took hours of debugging. lol Hopeully I wont forget
 
 - [x] built endpoint on java to pull events, integrated api in reactnative. 
