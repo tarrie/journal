@@ -768,6 +768,8 @@ So `getAllEventRelationshipForEvent` uses the GSI next time need to make a test 
 
 TO write to a gsi mostly had it correct but have to add a annotation for the GSI sort and range key, and set consisten reads to false --> https://stackoverflow.com/questions/30457820/how-to-query-a-dynamo-db-having-a-gsi-with-only-hashkeys-using-dynamodbmapper
 
+Example of query using GSI is in: https://github.com/tarrie/io.tarrie.api/blob/master/TarrieRESTfulAPI/src/main/java/io/tarrie/controller/utils/ControllerUtils.java#L55
+
 Also when I used the JSON mapper, not the actual keys put in as input to the api must match whateer the annoation says. For instance `Event` has a `id` field, but if i put a json with `id: EVT#xyx` api wont pick it up rather it needs to be `main_pk: EVT#xyz`
 
 React Native (Run the server and change the endppint to localhost to run)
@@ -842,3 +844,11 @@ Messing with time is so damn annoying. Api call was failing because server enfor
 - error iin GroupHome were i cant use ref and scrollTo
 Cannot read property 'getScrollResponder' of undefined ParallaxScrollView
 Fixed ^^ but useNativeDriver is messed up in Animated prob causing delay
+
+# 12.14.20
+(1) if you have f({a}) and `a` is optional then f() wont work you need f({})
+(2) to wait for a promise safest thing is to return the `.then` function. SO YOU CAn nest then, otherwise it might not wait. 
+
+These two facts took hours of debugging. lol Hopeully I wont forget
+
+- [x] built endpoint on java to pull events, integrated api in reactnative. 
