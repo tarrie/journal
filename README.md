@@ -852,3 +852,10 @@ problem child: https://github.com/tarrie/frontend/blob/createAndSubscribeToEvent
 These two facts took hours of debugging. lol Hopeully I wont forget
 
 - [x] built endpoint on java to pull events, integrated api in reactnative. 
+
+# 12.26.20
+
+#### UseMemo()
+useMemo takes in a function and an array of dependencies.
+
+> The dependencies act similar to arguments in a function. The dependency’s list are the elements useMemo watches: if there are no changes, the function result will stay the same. Otherwise, it will re-run the function. If they don’t change, it doesn’t matter if our entire component re-renders, the function won’t re-run but instead return the stored result. This can be optimal if the wrapped function is large and expensive. That is the primary use for useMemo.
